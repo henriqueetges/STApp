@@ -9,7 +9,7 @@ if "language_selected" not in st.session_state:
 language_selection = st.pills(label='', options=['en-US', 'pt-BR'], default=st.session_state.language_selected)
 st.session_state.language_selected = language_selection
 
-with open("content/pbi_portfolio.json","r", encoding='UTF-8') as f:
+with open("content\pbi_portfolio.json","r", encoding='UTF-8') as f:
     data = json.load(f)
     
 content = data['languages'][st.session_state.language_selected]
