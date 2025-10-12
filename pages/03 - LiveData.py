@@ -9,7 +9,7 @@ st.set_page_config(
 if "language_selected" not in st.session_state:
     st.session_state.language_selected = 'en-US'
     
-language_selection = st.pills(label='', options=['en-US', 'pt-BR'], default='en-US')
+language_selection = st.pills(label='', options=['en-US', 'pt-BR'], default=st.session_state.language_selected)
 st.session_state.language_selected = language_selection
 
 st.title("Live Data")
