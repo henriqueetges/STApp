@@ -10,7 +10,7 @@ language_selection = st.pills(label='', options=['en-US', 'pt-BR'], default=st.s
 st.session_state.language_selected = language_selection
 
 
-with open("content\data_engineering.json", "r" ,encoding='UTF-8') as f:
+with open("content/data_engineering.json", "r" ,encoding='UTF-8') as f:
     data = json.load(f)
     
 content = data['languages'][st.session_state.language_selected]
