@@ -1,0 +1,38 @@
+{
+  "languages": {
+    "en-US": {
+      "Heading": "# My PowerBI Portfolio",
+      "Projects": [
+        {
+          "Name": "HTML",
+          "Description": "This includes HTML pieces used to create custom visualizations in PowerBI. All of these visualizations are HTML + CSS combos used along with the HTML Content Visual. Most of these are designed to create interactive cards.\n\nExamples:\n- Card with Progress Bar:\n\n![Card with progress bar](https://raw.githubusercontent.com/henriqueetges/PowerBI---Repo/d49c20896b17b0b795a856572b6654dcb49e84f4/html/card-with-progress-bar/card-with-progress-bar.png)\n- Card with Progress Bar and Delta:\n\n![Card with progress bar and delta](https://raw.githubusercontent.com/henriqueetges/PowerBI---Repo/d49c20896b17b0b795a856572b6654dcb49e84f4/html/card-with-progress-bar+delta/card-with-progress-bar+delta.png)"
+        },
+        {
+          "Name": "DAX",
+          "Description": "DAX is the language used by PowerBI to create measures and calculated columns. It is a descendant of MDX.\nMost calculations using DAX are simple, but depending on how the data model is set up, we may need to create complex logic definitions to calculate business-defined metrics."
+        },
+        {
+          "Name": "Reports",
+          "Description": "In this section, I'll add public links to sample PowerBI reports.\n![Sample Report](https://as2.ftcdn.net/v2/jpg/00/08/85/67/1000_F_8856770_vGp3qw2viEt06tqIY55EMwOC84nMBC6x.jpg)"
+        }
+      ]
+    },
+    "pt-BR": {
+      "Heading": "# Meu Portfólio PowerBI",
+      "Projects": [
+        {
+          "Name": "HTML",
+          "Description": "Aqui estão exemplos de componentes HTML usados para criar visualizações personalizadas no PowerBI. Todas essas visualizações são combinações de HTML + CSS utilizadas junto ao visual HTML Content. A maioria delas foi criada para gerar cartões interativos.\n\nExemplos:\n- Cartão com barra de progresso: \n ![Cartão com barra de progresso](https://raw.githubusercontent.com/henriqueetges/PowerBI---Repo/d49c20896b17b0b795a856572b6654dcb49e84f4/html/card-with-progress-bar/card-with-progress-bar.png)\n- Cartão com barra de progresso e delta: \n ![Cartão com barra de progresso e delta](https://raw.githubusercontent.com/henriqueetges/PowerBI---Repo/d49c20896b17b0b795a856572b6654dcb49e84f4/html/card-with-progress-bar+delta/card-with-progress-bar+delta.png)"
+        },
+        {
+          "Name": "DAX",
+          "Description": "DAX é a linguagem usada pelo PowerBI para criar medidas e colunas calculadas. Ela é descendente da MDX.\nA maioria dos cálculos com DAX é simples, mas dependendo de como o modelo de dados está estruturado, pode ser necessário definir lógicas complexas para calcular métricas definidas pelo negócio."
+        },
+        {
+          "Name": "Relatórios",
+          "Description": "Nesta seção, adicionarei links públicos para exemplos de relatórios PowerBI.\n![Relatório de exemplo](https://as2.ftcdn.net/v2/jpg/00/08/85/67/1000_F_8856770_vGp3qw2viEt06tqIY55EMwOC84nMBC6x.jpg)"
+        }
+      ]
+    }
+  }
+}

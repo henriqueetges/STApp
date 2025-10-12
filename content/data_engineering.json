@@ -1,0 +1,38 @@
+{
+  "languages": {
+    "en-US": {
+      "Heading": "# Welcome to my page!",
+      "Description": "Aqui estão reunidos algums projetos de portfolio. O que se encontra aqui é somente uma parte do meu trabalho, usando dados de disponibilidade            pública na web",
+      "Projects": [{
+        "Name": "Brapi - Medallion Architecture",
+        "ProjectDescription": "This project was aimed at keeping a medallion architecture using databricks, while pulling stock ticker prices from Brapi's API.\n Data flows from the API calls into bronze layer, in silver we perform data schema validations and other data quality validations. \n        The project is available at: https://github.com/henriqueetges/MyDatalake" 
+      },
+      {
+        "Name":"Data Integrity with Pyspark",
+        "ProjectDescription": "This project is part of my sandbox datalake implementation, and the goal if it is to perform data quality checks in my data to assess its \n quality scores based on the five Quality Dimensions Framework (Timeliness, Completeness, Uniqueness, Validity and Consistency) \n In this project I tried creating a two scoring modules: \n- *Checker* - Its the main component, which takes each of datasets and performs the individual tests. Contains all of the pyspark testing logic. \n After running the checks, it saves it into another table for reporting purposes.\n- *CheckerHandler* - Takes a list of datasets locations, a path to the yml file defining schema and tests to be performed. From this it calls the Checker in each of them to analyze the rules Since this project has been included into my DataLake project implementation, I haven't been maintaining its individual repository.           But you can find some information about the project here: https://github.com/henriqueetges/MyExpectations"
+      }, {
+        "Name":"DLT",
+        "ProjectDescription": "his is another piece of my Datalake implementation, where I am slowly transitioning the ELT/ETL scripts from normal batch operations \n into DLT pipelines in Databricks.\n You can find some examples in my DataLake repository, here: https://github.com/henriqueetges/MyDatalake"
+    }]
+  },
+  "pt-BR": {
+      "Heading": "# Bem-vindo à minha página!",
+      "Description": "Aqui estão reunidos alguns projetos de portfólio. O que se encontra aqui é apenas uma parte do meu trabalho, usando dados de disponibilidade pública na web.",
+      "Projects": [
+        {
+          "Name": "Brapi - Arquitetura Medallion",
+          "ProjectDescription": "Este projeto tem como objetivo manter uma arquitetura medallion usando Databricks, enquanto coleta preços de ações da API do Brapi.\nOs dados fluem da API para a camada bronze; na camada silver, realizamos validações de esquema e verificações de qualidade.\nO projeto está disponível em: https://github.com/henriqueetges/MyDatalake"
+        },
+        {
+          "Name": "Integridade de Dados com PySpark",
+          "ProjectDescription": "Este projeto faz parte da minha implementação sandbox do DataLake. O objetivo é realizar verificações de qualidade nos dados e avaliar pontuações com base nas Cinco Dimensões da Qualidade (Pontualidade, Completude, Unicidade, Validade e Consistência).\nInclui dois módulos de pontuação:\n- *Checker*: Componente principal que executa testes PySpark em cada conjunto de dados e salva os resultados em uma tabela de relatórios.\n- *CheckerHandler*: Recebe os caminhos dos datasets e um arquivo YAML com esquema e regras, e chama o Checker para aplicar as validações.\nEste projeto está incluído no meu repositório DataLake: https://github.com/henriqueetges/MyExpectations"
+        },
+        {
+          "Name": "DLT",
+          "ProjectDescription": "Este é outro componente da minha implementação do DataLake, onde estou migrando os scripts de ELT/ETL de operações em lote para pipelines DLT no Databricks.\nVocê pode encontrar exemplos no meu repositório DataLake: https://github.com/henriqueetges/MyDatalake"
+        }
+      ]
+    }
+  }
+
+}
