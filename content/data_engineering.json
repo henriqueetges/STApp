@@ -5,7 +5,7 @@
       "Description": "In here I have a couple projects fucusing on Data Engineering problems, such as data ingestion, ELT/ETL Pipelines and Data Quality Checks.",
       "Projects": [{
         "Name": "Brapi - Medallion Architecture",
-        "ProjectDescription": "This project was aimed at keeping a medallion architecture using databricks, while pulling stock ticker prices from Brapi's API.\n Data flows from the API calls into bronze layer, in silver we perform data schema validations and other data quality validations. \n        The project is available at: https://github.com/henriqueetges/MyDatalake" 
+        "ProjectDescription": "This project was aimed at keeping a medallion architecture using databricks, while pulling stock ticker prices from Brapi's API.\n Data flows from the API calls into bronze layer, in silver we perform data schema validations and other data quality validations. \n        The project is available at: https://github.com/henriqueetges/MyDatalake" ,
       },
       {
         "Name":"Data Integrity with Pyspark",

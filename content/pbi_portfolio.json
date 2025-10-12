@@ -22,7 +22,7 @@
       "Projects": [
         {
           "Name": "HTML",
-          "Description": "Aqui estão exemplos de componentes HTML usados para criar visualizações personalizadas no PowerBI. Todas essas visualizações são combinações de HTML + CSS utilizadas junto ao visual HTML Content. A maioria delas foi criada para gerar cartões interativos.\n\nExemplos:\n- Cartão com barra de progresso: \n ![Cartão com barra de progresso](https://raw.githubusercontent.com/henriqueetges/PowerBI---Repo/d49c20896b17b0b795a856572b6654dcb49e84f4/html/card-with-progress-bar/card-with-progress-bar.png)\n- Cartão com barra de progresso e delta: \n ![Cartão com barra de progresso e delta](https://raw.githubusercontent.com/henriqueetges/PowerBI---Repo/d49c20896b17b0b795a856572b6654dcb49e84f4/html/card-with-progress-bar+delta/card-with-progress-bar+delta.png)"
+          "Description": "Aqui estão exemplos de componentes HTML usados para criar visualizações personalizadas no PowerBI. Todas essas visualizações são combinações de HTML + CSS utilizadas junto ao visual HTML Content. A maioria delas foi criada para gerar cartões interativos.\n\nExemplos:\n- Cartão com barra de progresso: \n\n ![Cartão com barra de progresso](https://raw.githubusercontent.com/henriqueetges/PowerBI---Repo/d49c20896b17b0b795a856572b6654dcb49e84f4/html/card-with-progress-bar/card-with-progress-bar.png)\n- Cartão com barra de progresso e delta: \n\n ![Cartão com barra de progresso e delta](https://raw.githubusercontent.com/henriqueetges/PowerBI---Repo/d49c20896b17b0b795a856572b6654dcb49e84f4/html/card-with-progress-bar+delta/card-with-progress-bar+delta.png)"
         },
         {
           "Name": "DAX",
