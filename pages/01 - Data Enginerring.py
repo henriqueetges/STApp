@@ -25,3 +25,7 @@ for project in projects:
     if project['Name'] == page_selector:
         st.title(project['Name'])
         st.write(project['ProjectDescription'])
+        if project['Contents']:
+            for project in project['Contents']:
+                st.write(f'## {project['Name']}')
+                st.markdown(project['Description'], unsafe_allow_html=True)
