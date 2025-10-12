@@ -5,14 +5,14 @@
       "Description": "In here I have a couple projects fucusing on Data Engineering problems, such as data ingestion, ELT/ETL Pipelines and Data Quality Checks.",
       "Projects": [{
         "Name": "Brapi - Medallion Architecture",
-        "ProjectDescription": "This project was aimed at keeping a medallion architecture using databricks, while pulling stock ticker prices from Brapi's API.\n Data flows from the API calls into bronze layer, in silver we perform data schema validations and other data quality validations. \n        The project is available at: https://github.com/henriqueetges/MyDatalake" ,
+        "ProjectDescription": "This project was aimed at keeping a medallion architecture using databricks, while pulling stock ticker prices from Brapi's API.\n Data flows from the API calls into bronze layer, in silver we perform data schema validations and other data quality validations. \n        The project is available at: https://github.com/henriqueetges/MyDatalake" 
       },
       {
         "Name":"Data Integrity with Pyspark",
         "ProjectDescription": "This project is part of my sandbox datalake implementation, and the goal if it is to perform data quality checks in my data to assess its \n quality scores based on the five Quality Dimensions Framework (Timeliness, Completeness, Uniqueness, Validity and Consistency) \n In this project I tried creating a two scoring modules: \n- *Checker* - Its the main component, which takes each of datasets and performs the individual tests. Contains all of the pyspark testing logic. \n After running the checks, it saves it into another table for reporting purposes.\n- *CheckerHandler* - Takes a list of datasets locations, a path to the yml file defining schema and tests to be performed. From this it calls the Checker in each of them to analyze the rules Since this project has been included into my DataLake project implementation, I haven't been maintaining its individual repository.           But you can find some information about the project here: https://github.com/henriqueetges/MyExpectations"
       }, {
         "Name":"DLT",
-        "ProjectDescription": "This is another piece of my Datalake implementation, where I am slowly transitioning the ELT/ETL scripts from normal batch operations \n into DLT pipelines in Databricks.\n You can find some examples in my DataLake repository, here: https://github.com/henriqueetges/MyDatalake"
+        "ProjectDescription": "his is another piece of my Datalake implementation, where I am slowly transitioning the ELT/ETL scripts from normal batch operations \n into DLT pipelines in Databricks.\n You can find some examples in my DataLake repository, here: https://github.com/henriqueetges/MyDatalake"
     }]
   },
   "pt-BR": {
