@@ -18,7 +18,7 @@ projects = content['Projects']
 st.write(f"{content["Heading"]}")
 st.sidebar.header("Portfolio")
 
-page_selector = st.sidebar.selectbox("Samples:", [project['Name'] for project in projects] )
+page_selector = st.sidebar.selectbox("Projects:", [project['Name'] for project in projects] )
 
 for project in projects:
     if project['Name'] == page_selector:

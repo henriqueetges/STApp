@@ -15,7 +15,7 @@ with open("content/data_engineering.json", "r" ,encoding='UTF-8') as f:
     
 content = data['languages'][st.session_state.language_selected]
 projects = content['Projects']
-page_selector = st.sidebar.selectbox("Samples:", [project['Name'] for project in projects])
+page_selector = st.sidebar.selectbox("Projects:", [project['Name'] for project in projects])
 st.write(content['Heading'])
 st.markdown(content['Description'])
 
