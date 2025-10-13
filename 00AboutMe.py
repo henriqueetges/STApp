@@ -21,9 +21,9 @@ content = data['languages'][st.session_state.language_selected]
 
 with st.container():
     st.html(f"""
-       <div style="background-color: #701f57; padding: 20px; border-radius: 10px;">
-           <h1>{content['Heading']}!</h1>
-           <p>{content['About Me']}</p>
+       <div style="background-color: #5586c7 ; padding: 20px; border-radius: 10px;">
+           <h1 style="color: #FFFFFF">{content['Heading']}!</h1>
+           <p style="color: #FFFFFF">{content['About Me']}</p>
            <div style="display: flex; gap: 20px; align-items: center;">
                <a href="https://github.com/henriqueetges" target="_blank">
                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="30" />
