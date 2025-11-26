@@ -6,46 +6,106 @@
       "Projects": [
         {
           "Name": "Brapi",
-          "Datasets": [{"Name": "Prices", "Table": "silver.brapi.prices"},{"Name": "Summary Profile", "Table": "silver.brapi.summary_profile"} ],
+          "Datasets": [
+            { "Name": "Prices", "Table": "silver.brapi.prices" },
+            { "Name": "Summary Profile", "Table": "silver.brapi.summary_profile" }
+          ],
           "ProjectDescription": "This project was aimed at keeping a medallion architecture using Databricks, while pulling stock ticker prices from Brapi's API.\nData flows from the API calls into bronze layer; in silver we perform data schema validations and other data quality validations.\nThe project is available at: https://github.com/henriqueetges/MyDatalake",
-          "Tabs": 
-          [
+          "Tabs": [
             {
               "Name": "Docs",
               "Contents": [
-                  {
-                    "Name": "Ingestion",
-                    "Type": "Text",
-                    "Description": "Ingestion was done through the BRAPI API. Because of free tier constraints, I had to create a script to fetch the list of available tickers and later process each ticker individually to get historical prices.\nFree tier constraints also meant that the script could only run twice a month, which proved to be a challenge to data integrity. The results of the requests were saved in Databricks DBFS and processed in batches of 50 endpoint calls.\n\n![Model](https://raw.githubusercontent.com/henriqueetges/STApp/refs/heads/main/media/ingestion.jpeg)"
-                  },
-                  {
-                    "Name": "ELT",
-                    "Type": "Text",
-                    "Description": "After reaching the bronze layer, the resulting data was split into two datasets Prices (Fact) and Summary Profile (Dimension).\n- #### Prices\nPrices were processed from a struct column containing historical prices. Even though the main endpoint returned daily prices, due to free tier limitations I could only run the requests twice a month.\n- #### Summary Profile\nContained data about the company, such as number of executives, addresses, etc. This data was mostly complete, but had some integrity issues. So I decided to run data integrity validations in this project."
-                  },
-                  {
-                    "Name": "Data Integrity",
-                    "Type": "Text",
-                    "Description": "Because of data integrity issues with some datasets, I decided to explore data quality metrics. I started testing using popular packages like GreatExpectations, but didn’t really like the outcome — especially because I wanted to store the results of the data quality checks in a specific way. For that, I created the project https://github.com/henriqueetges/MyExpectations, which uses a metadata-driven approach to perform data quality validations. I used *PySpark* for the testing logic."
-                  }]},
+                {
+                  "Name": "Ingestion",
+                  "Type": "Text",
+                  "Description": "Ingestion was done through the BRAPI API. Because of free tier constraints, I had to create a script to fetch the list of available tickers and later process each ticker individually to get historical prices.\nFree tier constraints also meant that the script could only run twice a month, which proved to be a challenge to data integrity. The results of the requests were saved in Databricks DBFS and processed in batches of 50 endpoint calls.\n\n![Model](https://raw.githubusercontent.com/henriqueetges/STApp/refs/heads/main/media/ingestion.jpeg)"
+                },
+                {
+                  "Name": "ELT",
+                  "Type": "Text",
+                  "Description": "After reaching the bronze layer, the resulting data was split into two datasets Prices (Fact) and Summary Profile (Dimension).\n- #### Prices\nPrices were processed from a struct column containing historical prices. Even though the main endpoint returned daily prices, due to free tier limitations I could only run the requests twice a month.\n- #### Summary Profile\nContained data about the company, such as number of executives, addresses, etc. This data was mostly complete, but had some integrity issues. So I decided to run data integrity validations in this project."
+                },
+                {
+                  "Name": "Data Integrity",
+                  "Type": "Text",
+                  "Description": "Because of data integrity issues with some datasets, I decided to explore data quality metrics. I started testing using popular packages like GreatExpectations, but didn’t really like the outcome — especially because I wanted to store the results of the data quality checks in a specific way. For that, I created the project https://github.com/henriqueetges/MyExpectations, which uses a metadata-driven approach to perform data quality validations. I used *PySpark* for the testing logic."
+                }
+              ]
+            },
+            {
+              "Name": "Explore the data",
+              "Contents": [
+                { "Name": "Header1", "Type": "Header", "Description": "Data Exploration Playground" },
+                { "Name": "Description", "Type": "Text", "Description": "This data is being pulled from different endpoints within BRAPI. In here I added a couple csv samples from the database, with all datasets I am currently capturing." },
+                { "Name": "Summary Profile", "Type": "Table", "Description": "This is the data that describes the stock tickers, providing information about the company", "module": "paginated_table", "function": "render", "path": "Sample_Data/summary_profile.csv", "pages": 10 },
+                { "Name": "Prices", "Type": "Table", "Description": "This data contains daily prices of tickers, which is a daily feed. Ideally, this data would have lower timestamp granularity. But API limitations on free tier, I am fetching only histoircal daily prices with batches running weekly.", "module": "paginated_table", "function": "render", "path": "Sample_Data/prices.csv", "pages": 10 }
+              ]
+            },
+            {
+              "Name": "Data Integrity",
+              "Contents": [
+                { "Name": "Header1", "Type": "Header", "Description": "Data Quality Metrics" },
+                { "Name": "Intro", "Type": "Text", "Description": "In here you can explore the data quality metrics for the datasets. The data was scored based on the 5 Data Quality Dimension framework. Each column (datapoint) was validaded against a specific set of rules. You can learn more about the quality dimenions here " }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "pt-BR": {
+      "Heading": "# Projetos de Engenharia de Dados!",
+      "Description": "Aqui apresento alguns projetos focados em problemas de Engenharia de Dados, como ingestão de dados, pipelines ELT/ETL e verificações de qualidade dos dados.",
+      "Projects": [
+        {
+          "Name": "Brapi",
+          "Datasets": [
+            { "Name": "Preços", "Table": "silver.brapi.prices" },
+            { "Name": "Perfil Resumido", "Table": "silver.brapi.summary_profile" }
+          ],
+          "ProjectDescription": "Este projeto teve como objetivo manter uma arquitetura de medalhão usando Databricks, enquanto buscava preços de ações pela API do Brapi.\nOs dados fluem das chamadas da API para a camada bronze; na camada silver realizamos validações de esquema e outras verificações de qualidade dos dados.\nO projeto está disponível em: https://github.com/henriqueetges/MyDatalake",
+          "Tabs": [
+            {
+              "Name": "Documentação",
+              "Contents": [
+                {
+                  "Name": "Ingestão",
+                  "Type": "Text",
+                  "Description": "A ingestão foi realizada através da API BRAPI. Devido às limitações do plano gratuito, criei um script para buscar a lista de tickers disponíveis e depois processar cada ticker individualmente para obter os preços históricos.\nAs limitações também significavam que o script só podia rodar duas vezes por mês, o que trouxe desafios para a integridade dos dados. Os resultados das requisições foram salvos no DBFS do Databricks e processados em lotes de 50 chamadas de endpoint.\n\n![Modelo](https://raw.githubusercontent.com/henriqueetges/STApp/refs/heads/main/media/ingestion.jpeg)"
+                },
+                {
+                  "Name": "ELT",
+                  "Type": "Text",
+                  "Description": "Após chegar à camada bronze, os dados resultantes foram divididos em dois conjuntos: Preços (Fato) e Perfil Resumido (Dimensão).\n- #### Preços\nOs preços foram processados a partir de uma coluna struct contendo preços históricos. Embora o endpoint principal retornasse preços diários, devido às limitações do plano gratuito só consegui rodar as requisições duas vezes por mês.\n- #### Perfil Resumido\nContinha dados sobre a empresa, como número de executivos, endereços, etc. Esses dados estavam em sua maioria completos, mas apresentavam alguns problemas de integridade. Por isso decidi realizar validações de integridade neste projeto."
+                },
+                {
+                  "Name": "Integridade dos Dados",
+                  "Type": "Text",
+                  "Description": "Devido a problemas de integridade em alguns conjuntos de dados, decidi explorar métricas de qualidade. Comecei testando com pacotes populares como GreatExpectations, mas não gostei muito do resultado — especialmente porque queria armazenar os resultados das verificações de qualidade de uma forma específica. Para isso, criei o projeto https://github.com/henriqueetges/MyExpectations, que usa uma abordagem orientada a metadados para realizar validações de qualidade. Usei *PySpark* para a lógica de testes."
+                }
+              ]
+            },
+            {
+              "Name": "Explorar os dados",
+              "Contents": [
+                { "Name": "Cabeçalho1", "Type": "Header", "Description": "Playground de Exploração de Dados" },
+                { "Name": "Descrição", "Type": "Text", "Description": "Esses dados estão sendo coletados de diferentes endpoints da BRAPI. Aqui adicionei alguns exemplos em CSV do banco de dados, com todos os conjuntos que estou capturando atualmente." },
+                { "Name": "Perfil Resumido", "Type": "Table", "Description": "Esses são os dados que descrevem os tickers, fornecendo informações sobre a empresa", "module": "paginated_table", "function": "render", "path": "Sample_Data/summary_profile.csv", "pages": 10 },
+                { "Name": "Preços", "Type": "Table", "Description": "Esses dados contêm preços diários dos tickers, que são um feed diário. Idealmente, esses dados teriam granularidade menor de timestamp. Mas devido às limitações da API no plano gratuito, estou buscando apenas preços históricos diários com lotes semanais.", "module": "paginated_table", "function": "render", "path": "Sample_Data/prices.csv", "pages": 10 }
+              ]},
               {
-                "Name": "Explore the data",
-                "Contents": [
-                  {"Name": "Header1", "Type": "Header", "Description": "Data Exploration Playground"},
-                  {"Name": "Description", "Type": "Text", "Description": "This data is being pulled from different endpoints within BRAPI. In here I added a couple csv samples from the database, with all datasets I am currently capturing."},
-                  {"Name": "Summary Profile", "Type": "Table", "Description": "This is the data that describes the stock tickers, providing information about the company", "module": "paginated_table", "function": "render", "path": "Sample_Data/summary_profile.csv" ,"pages": 10},
-                  {"Name": "Prices", "Type": "Table", "Description": "This data contains daily prices of tickers, which is a daily feed. Ideally, this data would have lower timestamp granularity. But API limitations on free tier, I am fetching only histoircal daily prices with batches running weekly.", "module": "paginated_table", "function": "render", "path": "Sample_Data/prices.csv" ,"pages": 10}
-                ]  
-              },
-              {
-                "Name": "Data Integrity",
-                "Contents": [
-                  {"Name": "Header1", "Type": "Header", "Description": "Data Quality Metrics"},
-                  {"Name": "Intro", "Type": "Text", "Description": "In here you can explore the data quality metrics for the datasets. The data was scored based on the 5 Data Quality Dimension framework. Each column (datapoint) was validaded against a specific set of rules. You can learn more about the quality dimenions here "}
-                ] 
-              }
-           ]
-        }]
-      }
+            "Name": "Integridade dos Dados",
+            "Contents": [
+              { "Name": "Cabeçalho1", "Type": "Header", "Description": "Métricas de Qualidade dos Dados" },
+              { 
+                "Name": "Introdução", 
+                "Type": "Text", 
+                "Description": "Aqui você pode explorar as métricas de qualidade dos dados para os conjuntos de dados. Os dados foram avaliados com base no framework das 5 Dimensões de Qualidade de Dados. Cada coluna (ponto de dado) foi validada contra um conjunto específico de regras. Você pode aprender mais sobre as dimensões de qualidade aqui." }
+              ]
+            }
+          ]
+        }
+      ]
     }
   }
+}
+        
