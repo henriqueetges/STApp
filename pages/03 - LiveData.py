@@ -1,5 +1,5 @@
 import streamlit as st
-import json
+from lib.utils import open_contents
 
 st.set_page_config(
     page_title="LiveData",

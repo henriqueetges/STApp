@@ -1,5 +1,5 @@
 import streamlit as st
-import json
+from lib.utils import open_contents
 
 st.set_page_config(page_title="PowerBI Porfolio", page_icon="📊")
 
@@ -9,8 +9,7 @@ if "language_selected" not in st.session_state:
 language_selection = st.pills(label='', options=['en-US', 'pt-BR'], default=st.session_state.language_selected)
 st.session_state.language_selected = language_selection
 
-with open("content/pbi_portfolio.json","r", encoding='UTF-8') as f:
-    data = json.load(f)
+data = open_contents("content/pbi_portfolio.json")
     
 content = data['languages'][st.session_state.language_selected]
 projects = content['Projects']

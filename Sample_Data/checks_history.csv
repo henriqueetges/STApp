@@ -1,0 +1,1500 @@
+test_name,table_name,test_type,layer,run_date,mandate,column,total_score,rows_checked,passing_rows,failing_rows
+,prices,missing,silver,2025-09-05,global_required,volume,0.816720202874049,59150,48309,10841
+close <= low,prices,outside_of_rules,silver,2025-09-05,global_required,close,0.3415046491969569,59150,20200,38950
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-05,global_required,volume,0.6517159763313609,59150,38549,20601
+,prices,outdated,silver,2025-09-05,global_required,date,0.06515638207945901,59150,3854,55296
+high < low,prices,outside_of_rules,silver,2025-09-05,global_required,high,0.0,59150,0,59150
+,prices,missing,silver,2025-09-05,global_required,close,0.9806931530008454,59150,58008,1142
+,prices,missing,silver,2025-09-05,global_required,high,0.9565173288250212,59150,56578,2572
+,prices,missing,silver,2025-09-05,global_required,low,0.9565173288250212,59150,56578,2572
+,prices,type_mismatch,silver,2025-09-05,global_required,close,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-05,global_required,symbol,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-05,global_required,volume,1.0,59150,59150,0
+low > high,prices,outside_of_rules,silver,2025-09-05,global_required,low,0.0,59150,0,59150
+,prices,missing,silver,2025-09-05,global_required,symbol,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-05,global_required,low,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-05,global_required,date,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-05,global_required,high,1.0,59150,59150,0
+,prices,missing,silver,2025-09-05,global_required,date,1.0,59150,59150,0
+,prices,duplicated,silver,2025-09-05,global_required,symbol,0.03377852916314455,59150,1998,57152
+,summary_profile,missing,silver,2025-09-05,local_required,BusinessSummary,0.4944944944944945,1998,988,1010
+,prices,duplicated,silver,2025-09-05,global_required,date,6.76246830092984E-4,59150,40,59110
+,summary_profile,missing,silver,2025-09-05,local_optional,industry,0.58008008008008,1998,1159,839
+,summary_profile,missing,silver,2025-09-05,global_required,country,0.7252252252252253,1998,1449,549
+,summary_profile,missing,silver,2025-09-05,local_optional,address2,0.3163163163163163,1998,632,1366
+,summary_profile,missing,silver,2025-09-05,local_required,sector,0.5770770770770771,1998,1153,845
+,summary_profile,missing,silver,2025-09-05,local_optional,address1,0.5205205205205206,1998,1040,958
+,summary_profile,missing,silver,2025-09-05,global_required,loaded_at,1.0,1998,1998,0
+,summary_profile,missing,silver,2025-09-05,global_required,state,0.456956956956957,1998,913,1085
+,summary_profile,duplicated,silver,2025-09-05,global_required,symbol,1.0,1998,1998,0
+,summary_profile,missing,silver,2025-09-05,global_required,zip,0.47847847847847846,1998,956,1042
+,summary_profile,missing,silver,2025-09-05,global_required,city,0.5205205205205206,1998,1040,958
+,summary_profile,missing,silver,2025-09-05,global_required,symbol,1.0,1998,1998,0
+,prices,missing,silver,2025-09-06,global_required,volume,0.816720202874049,59150,48309,10841
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-06,global_required,volume,0.6517159763313609,59150,38549,20601
+close <= low,prices,outside_of_rules,silver,2025-09-06,global_required,close,0.3415046491969569,59150,20200,38950
+,prices,missing,silver,2025-09-06,global_required,high,0.9565173288250212,59150,56578,2572
+high < low,prices,outside_of_rules,silver,2025-09-06,global_required,high,0.0,59150,0,59150
+,prices,missing,silver,2025-09-06,global_required,close,0.9806931530008454,59150,58008,1142
+,prices,outdated,silver,2025-09-06,global_required,date,0.03218934911242603,59150,1904,57246
+,prices,missing,silver,2025-09-06,global_required,low,0.9565173288250212,59150,56578,2572
+,prices,type_mismatch,silver,2025-09-06,global_required,volume,1.0,59150,59150,0
+low > high,prices,outside_of_rules,silver,2025-09-06,global_required,low,0.0,59150,0,59150
+,prices,type_mismatch,silver,2025-09-06,global_required,close,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-06,global_required,symbol,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-06,global_required,high,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-06,global_required,low,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-06,global_required,date,1.0,59150,59150,0
+,prices,missing,silver,2025-09-06,global_required,symbol,1.0,59150,59150,0
+,prices,duplicated,silver,2025-09-06,global_required,date,6.76246830092984E-4,59150,40,59110
+,prices,missing,silver,2025-09-06,global_required,date,1.0,59150,59150,0
+,summary_profile,missing,silver,2025-09-06,local_required,BusinessSummary,0.4944944944944945,1998,988,1010
+,prices,duplicated,silver,2025-09-06,global_required,symbol,0.03377852916314455,59150,1998,57152
+,summary_profile,missing,silver,2025-09-06,local_optional,industry,0.58008008008008,1998,1159,839
+,summary_profile,missing,silver,2025-09-06,local_required,sector,0.5770770770770771,1998,1153,845
+,summary_profile,missing,silver,2025-09-06,global_required,country,0.7252252252252253,1998,1449,549
+,summary_profile,missing,silver,2025-09-06,local_optional,address2,0.3163163163163163,1998,632,1366
+,summary_profile,missing,silver,2025-09-06,local_optional,address1,0.5205205205205206,1998,1040,958
+,summary_profile,duplicated,silver,2025-09-06,global_required,symbol,1.0,1998,1998,0
+,summary_profile,missing,silver,2025-09-06,global_required,state,0.456956956956957,1998,913,1085
+,summary_profile,missing,silver,2025-09-06,global_required,city,0.5205205205205206,1998,1040,958
+,summary_profile,missing,silver,2025-09-06,global_required,loaded_at,1.0,1998,1998,0
+,summary_profile,missing,silver,2025-09-06,global_required,zip,0.47847847847847846,1998,956,1042
+,summary_profile,missing,silver,2025-09-06,global_required,symbol,1.0,1998,1998,0
+close <= low,prices,outside_of_rules,silver,2025-09-07,global_required,close,0.3415046491969569,59150,20200,38950
+,prices,missing,silver,2025-09-07,global_required,volume,0.816720202874049,59150,48309,10841
+,prices,missing,silver,2025-09-07,global_required,high,0.9565173288250212,59150,56578,2572
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-07,global_required,volume,0.6517159763313609,59150,38549,20601
+,prices,missing,silver,2025-09-07,global_required,close,0.9806931530008454,59150,58008,1142
+high < low,prices,outside_of_rules,silver,2025-09-07,global_required,high,0.0,59150,0,59150
+,prices,missing,silver,2025-09-07,global_required,low,0.9565173288250212,59150,56578,2572
+low > high,prices,outside_of_rules,silver,2025-09-07,global_required,low,0.0,59150,0,59150
+,prices,type_mismatch,silver,2025-09-07,global_required,symbol,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-07,global_required,close,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-07,global_required,volume,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-07,global_required,date,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-07,global_required,low,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-07,global_required,high,1.0,59150,59150,0
+,prices,missing,silver,2025-09-07,global_required,symbol,1.0,59150,59150,0
+,prices,outdated,silver,2025-09-07,global_required,date,0.0,59150,0,59150
+,prices,missing,silver,2025-09-07,global_required,date,1.0,59150,59150,0
+,summary_profile,missing,silver,2025-09-07,local_required,BusinessSummary,0.4944944944944945,1998,988,1010
+,prices,duplicated,silver,2025-09-07,global_required,date,6.76246830092984E-4,59150,40,59110
+,prices,duplicated,silver,2025-09-07,global_required,symbol,0.03377852916314455,59150,1998,57152
+,summary_profile,missing,silver,2025-09-07,local_required,sector,0.5770770770770771,1998,1153,845
+,summary_profile,missing,silver,2025-09-07,local_optional,industry,0.58008008008008,1998,1159,839
+,summary_profile,missing,silver,2025-09-07,local_optional,address2,0.3163163163163163,1998,632,1366
+,summary_profile,missing,silver,2025-09-07,local_optional,address1,0.5205205205205206,1998,1040,958
+,summary_profile,missing,silver,2025-09-07,global_required,country,0.7252252252252253,1998,1449,549
+,summary_profile,missing,silver,2025-09-07,global_required,city,0.5205205205205206,1998,1040,958
+,summary_profile,duplicated,silver,2025-09-07,global_required,symbol,1.0,1998,1998,0
+,summary_profile,missing,silver,2025-09-07,global_required,loaded_at,1.0,1998,1998,0
+,summary_profile,missing,silver,2025-09-07,global_required,state,0.456956956956957,1998,913,1085
+,summary_profile,missing,silver,2025-09-07,global_required,zip,0.47847847847847846,1998,956,1042
+,summary_profile,missing,silver,2025-09-07,global_required,symbol,1.0,1998,1998,0
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-08,global_required,volume,0.6517159763313609,59150,38549,20601
+,prices,missing,silver,2025-09-08,global_required,high,0.9565173288250212,59150,56578,2572
+,prices,missing,silver,2025-09-08,global_required,volume,0.816720202874049,59150,48309,10841
+close <= low,prices,outside_of_rules,silver,2025-09-08,global_required,close,0.3415046491969569,59150,20200,38950
+low > high,prices,outside_of_rules,silver,2025-09-08,global_required,low,0.0,59150,0,59150
+,prices,missing,silver,2025-09-08,global_required,low,0.9565173288250212,59150,56578,2572
+,prices,missing,silver,2025-09-08,global_required,close,0.9806931530008454,59150,58008,1142
+high < low,prices,outside_of_rules,silver,2025-09-08,global_required,high,0.0,59150,0,59150
+,prices,type_mismatch,silver,2025-09-08,global_required,symbol,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-08,global_required,date,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-08,global_required,close,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-08,global_required,volume,1.0,59150,59150,0
+,prices,outdated,silver,2025-09-08,global_required,date,0.0,59150,0,59150
+,prices,missing,silver,2025-09-08,global_required,symbol,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-08,global_required,high,1.0,59150,59150,0
+,prices,type_mismatch,silver,2025-09-08,global_required,low,1.0,59150,59150,0
+,prices,duplicated,silver,2025-09-08,global_required,date,6.76246830092984E-4,59150,40,59110
+,summary_profile,missing,silver,2025-09-08,local_required,BusinessSummary,0.4944944944944945,1998,988,1010
+,prices,duplicated,silver,2025-09-08,global_required,symbol,0.03377852916314455,59150,1998,57152
+,prices,missing,silver,2025-09-08,global_required,date,1.0,59150,59150,0
+,summary_profile,missing,silver,2025-09-08,local_optional,address1,0.5205205205205206,1998,1040,958
+,summary_profile,missing,silver,2025-09-08,global_required,country,0.7252252252252253,1998,1449,549
+,summary_profile,missing,silver,2025-09-08,local_required,sector,0.5770770770770771,1998,1153,845
+,summary_profile,missing,silver,2025-09-08,local_optional,industry,0.58008008008008,1998,1159,839
+,summary_profile,missing,silver,2025-09-08,local_optional,address2,0.3163163163163163,1998,632,1366
+,summary_profile,missing,silver,2025-09-08,global_required,zip,0.47847847847847846,1998,956,1042
+,summary_profile,duplicated,silver,2025-09-08,global_required,symbol,1.0,1998,1998,0
+,summary_profile,missing,silver,2025-09-08,global_required,city,0.5205205205205206,1998,1040,958
+,summary_profile,missing,silver,2025-09-08,global_required,loaded_at,1.0,1998,1998,0
+,summary_profile,missing,silver,2025-09-08,global_required,state,0.456956956956957,1998,913,1085
+,summary_profile,missing,silver,2025-09-08,global_required,symbol,1.0,1998,1998,0
+,prices,outdated,silver,2025-09-09,global_required,date,0.21871535702641018,76675,16770,59905
+close <= low,prices,outside_of_rules,silver,2025-09-09,global_required,close,0.3520313009455494,76675,26992,49683
+,prices,missing,silver,2025-09-09,global_required,volume,0.8075252689925008,76675,61917,14758
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-09,global_required,volume,0.6561069448972938,76675,50307,26368
+,prices,missing,silver,2025-09-09,global_required,high,0.9588522986631888,76675,73520,3155
+high < low,prices,outside_of_rules,silver,2025-09-09,global_required,high,0.0,76675,0,76675
+,prices,missing,silver,2025-09-09,global_required,low,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-09,global_required,close,0.9775546136289534,76675,74954,1721
+low > high,prices,outside_of_rules,silver,2025-09-09,global_required,low,0.0,76675,0,76675
+,prices,type_mismatch,silver,2025-09-09,global_required,volume,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-09,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-09,global_required,close,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-09,global_required,date,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-09,global_required,low,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-09,global_required,high,1.0,76675,76675,0
+,prices,missing,silver,2025-09-09,global_required,symbol,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-09,global_required,date,6.651450929246821E-4,76675,51,76624
+,prices,missing,silver,2025-09-09,global_required,date,1.0,76675,76675,0
+,summary_profile,missing,silver,2025-09-09,global_required,country,0.7318944844124701,2085,1526,559
+,prices,duplicated,silver,2025-09-09,global_required,symbol,0.027192696446038472,76675,2085,74590
+,summary_profile,missing,silver,2025-09-09,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-09,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-09,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-09,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-09,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-09,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-09,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,missing,silver,2025-09-09,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-09,global_required,symbol,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-09,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,duplicated,silver,2025-09-09,global_required,symbol,1.0,2085,2085,0
+close <= low,prices,outside_of_rules,silver,2025-09-10,global_required,close,0.3520313009455494,76675,26992,49683
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-10,global_required,volume,0.6561069448972938,76675,50307,26368
+,prices,missing,silver,2025-09-10,global_required,volume,0.8075252689925008,76675,61917,14758
+,prices,outdated,silver,2025-09-10,global_required,date,0.198408868601239,76675,15213,61462
+,prices,missing,silver,2025-09-10,global_required,close,0.9775546136289534,76675,74954,1721
+,prices,missing,silver,2025-09-10,global_required,high,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-10,global_required,low,0.9588522986631888,76675,73520,3155
+high < low,prices,outside_of_rules,silver,2025-09-10,global_required,high,0.0,76675,0,76675
+low > high,prices,outside_of_rules,silver,2025-09-10,global_required,low,0.0,76675,0,76675
+,prices,type_mismatch,silver,2025-09-10,global_required,close,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-10,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-10,global_required,volume,1.0,76675,76675,0
+,prices,missing,silver,2025-09-10,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-10,global_required,date,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-10,global_required,low,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-10,global_required,high,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-10,global_required,symbol,0.027192696446038472,76675,2085,74590
+,prices,duplicated,silver,2025-09-10,global_required,date,6.651450929246821E-4,76675,51,76624
+,prices,missing,silver,2025-09-10,global_required,date,1.0,76675,76675,0
+,summary_profile,missing,silver,2025-09-10,global_required,country,0.7318944844124701,2085,1526,559
+,summary_profile,missing,silver,2025-09-10,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-10,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-10,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-10,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-10,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-10,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,outdated,silver,2025-09-10,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-10,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-10,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,missing,silver,2025-09-10,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-10,global_required,symbol,1.0,2085,2085,0
+,summary_profile,duplicated,silver,2025-09-10,global_required,symbol,1.0,2085,2085,0
+,prices,missing,silver,2025-09-11,global_required,volume,0.8075252689925008,76675,61917,14758
+close <= low,prices,outside_of_rules,silver,2025-09-11,global_required,close,0.3520313009455494,76675,26992,49683
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-11,global_required,volume,0.6561069448972938,76675,50307,26368
+,prices,outdated,silver,2025-09-11,global_required,date,0.17806325399413106,76675,13653,63022
+high < low,prices,outside_of_rules,silver,2025-09-11,global_required,high,0.0,76675,0,76675
+,prices,missing,silver,2025-09-11,global_required,close,0.9775546136289534,76675,74954,1721
+,prices,missing,silver,2025-09-11,global_required,low,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-11,global_required,high,0.9588522986631888,76675,73520,3155
+,prices,type_mismatch,silver,2025-09-11,global_required,close,1.0,76675,76675,0
+low > high,prices,outside_of_rules,silver,2025-09-11,global_required,low,0.0,76675,0,76675
+,prices,type_mismatch,silver,2025-09-11,global_required,volume,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-11,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-11,global_required,low,1.0,76675,76675,0
+,prices,missing,silver,2025-09-11,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-11,global_required,date,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-11,global_required,high,1.0,76675,76675,0
+,summary_profile,missing,silver,2025-09-11,global_required,country,0.7318944844124701,2085,1526,559
+,prices,duplicated,silver,2025-09-11,global_required,date,6.651450929246821E-4,76675,51,76624
+,prices,duplicated,silver,2025-09-11,global_required,symbol,0.027192696446038472,76675,2085,74590
+,prices,missing,silver,2025-09-11,global_required,date,1.0,76675,76675,0
+,summary_profile,missing,silver,2025-09-11,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-11,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-11,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-11,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-11,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,outdated,silver,2025-09-11,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-11,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-11,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-11,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,missing,silver,2025-09-11,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,duplicated,silver,2025-09-11,global_required,symbol,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-11,global_required,symbol,1.0,2085,2085,0
+close <= low,prices,outside_of_rules,silver,2025-09-12,global_required,close,0.3520313009455494,76675,26992,49683
+,prices,outdated,silver,2025-09-12,global_required,date,0.15770459732637757,76675,12092,64583
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-12,global_required,volume,0.6561069448972938,76675,50307,26368
+,prices,missing,silver,2025-09-12,global_required,volume,0.8075252689925008,76675,61917,14758
+,prices,missing,silver,2025-09-12,global_required,low,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-12,global_required,high,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-12,global_required,close,0.9775546136289534,76675,74954,1721
+high < low,prices,outside_of_rules,silver,2025-09-12,global_required,high,0.0,76675,0,76675
+low > high,prices,outside_of_rules,silver,2025-09-12,global_required,low,0.0,76675,0,76675
+,prices,type_mismatch,silver,2025-09-12,global_required,volume,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-12,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-12,global_required,close,1.0,76675,76675,0
+,prices,missing,silver,2025-09-12,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-12,global_required,date,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-12,global_required,high,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-12,global_required,low,1.0,76675,76675,0
+,summary_profile,missing,silver,2025-09-12,global_required,country,0.7318944844124701,2085,1526,559
+,prices,duplicated,silver,2025-09-12,global_required,date,6.651450929246821E-4,76675,51,76624
+,prices,missing,silver,2025-09-12,global_required,date,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-12,global_required,symbol,0.027192696446038472,76675,2085,74590
+,summary_profile,missing,silver,2025-09-12,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-12,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-12,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-12,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-12,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-12,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-12,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,missing,silver,2025-09-12,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,outdated,silver,2025-09-12,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-12,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,missing,silver,2025-09-12,global_required,symbol,1.0,2085,2085,0
+,summary_profile,duplicated,silver,2025-09-12,global_required,symbol,1.0,2085,2085,0
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-13,global_required,volume,0.6561069448972938,76675,50307,26368
+close <= low,prices,outside_of_rules,silver,2025-09-13,global_required,close,0.3520313009455494,76675,26992,49683
+,prices,missing,silver,2025-09-13,global_required,volume,0.8075252689925008,76675,61917,14758
+,prices,outdated,silver,2025-09-13,global_required,date,0.13733289859797848,76675,10530,66145
+,prices,missing,silver,2025-09-13,global_required,high,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-13,global_required,close,0.9775546136289534,76675,74954,1721
+high < low,prices,outside_of_rules,silver,2025-09-13,global_required,high,0.0,76675,0,76675
+,prices,missing,silver,2025-09-13,global_required,low,0.9588522986631888,76675,73520,3155
+,prices,type_mismatch,silver,2025-09-13,global_required,close,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-13,global_required,symbol,1.0,76675,76675,0
+low > high,prices,outside_of_rules,silver,2025-09-13,global_required,low,0.0,76675,0,76675
+,prices,type_mismatch,silver,2025-09-13,global_required,volume,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-13,global_required,date,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-13,global_required,high,1.0,76675,76675,0
+,prices,missing,silver,2025-09-13,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-13,global_required,low,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-13,global_required,symbol,0.027192696446038472,76675,2085,74590
+,prices,duplicated,silver,2025-09-13,global_required,date,6.651450929246821E-4,76675,51,76624
+,summary_profile,missing,silver,2025-09-13,global_required,country,0.7318944844124701,2085,1526,559
+,prices,missing,silver,2025-09-13,global_required,date,1.0,76675,76675,0
+,summary_profile,missing,silver,2025-09-13,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-13,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-13,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-13,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-13,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-13,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,outdated,silver,2025-09-13,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-13,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-13,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-13,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,missing,silver,2025-09-13,global_required,symbol,1.0,2085,2085,0
+,summary_profile,duplicated,silver,2025-09-13,global_required,symbol,1.0,2085,2085,0
+close <= low,prices,outside_of_rules,silver,2025-09-14,global_required,close,0.3520313009455494,76675,26992,49683
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-14,global_required,volume,0.6561069448972938,76675,50307,26368
+,prices,outdated,silver,2025-09-14,global_required,date,0.11697424193022497,76675,8969,67706
+,prices,missing,silver,2025-09-14,global_required,volume,0.8075252689925008,76675,61917,14758
+,prices,missing,silver,2025-09-14,global_required,high,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-14,global_required,low,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-14,global_required,close,0.9775546136289534,76675,74954,1721
+high < low,prices,outside_of_rules,silver,2025-09-14,global_required,high,0.0,76675,0,76675
+low > high,prices,outside_of_rules,silver,2025-09-14,global_required,low,0.0,76675,0,76675
+,prices,type_mismatch,silver,2025-09-14,global_required,close,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-14,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-14,global_required,volume,1.0,76675,76675,0
+,prices,missing,silver,2025-09-14,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-14,global_required,high,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-14,global_required,low,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-14,global_required,date,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-14,global_required,symbol,0.027192696446038472,76675,2085,74590
+,prices,duplicated,silver,2025-09-14,global_required,date,6.651450929246821E-4,76675,51,76624
+,prices,missing,silver,2025-09-14,global_required,date,1.0,76675,76675,0
+,summary_profile,missing,silver,2025-09-14,global_required,country,0.7318944844124701,2085,1526,559
+,summary_profile,missing,silver,2025-09-14,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-14,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-14,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-14,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-14,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-14,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-14,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,missing,silver,2025-09-14,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,outdated,silver,2025-09-14,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-14,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-14,global_required,symbol,1.0,2085,2085,0
+,summary_profile,duplicated,silver,2025-09-14,global_required,symbol,1.0,2085,2085,0
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-15,global_required,volume,0.6561069448972938,76675,50307,26368
+,prices,outdated,silver,2025-09-15,global_required,date,0.11697424193022497,76675,8969,67706
+close <= low,prices,outside_of_rules,silver,2025-09-15,global_required,close,0.3520313009455494,76675,26992,49683
+,prices,missing,silver,2025-09-15,global_required,volume,0.8075252689925008,76675,61917,14758
+high < low,prices,outside_of_rules,silver,2025-09-15,global_required,high,0.0,76675,0,76675
+,prices,missing,silver,2025-09-15,global_required,high,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-15,global_required,low,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-15,global_required,close,0.9775546136289534,76675,74954,1721
+,prices,type_mismatch,silver,2025-09-15,global_required,volume,1.0,76675,76675,0
+low > high,prices,outside_of_rules,silver,2025-09-15,global_required,low,0.0,76675,0,76675
+,prices,type_mismatch,silver,2025-09-15,global_required,close,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-15,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-15,global_required,low,1.0,76675,76675,0
+,prices,missing,silver,2025-09-15,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-15,global_required,date,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-15,global_required,high,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-15,global_required,symbol,0.027192696446038472,76675,2085,74590
+,summary_profile,missing,silver,2025-09-15,global_required,country,0.7318944844124701,2085,1526,559
+,prices,missing,silver,2025-09-15,global_required,date,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-15,global_required,date,6.651450929246821E-4,76675,51,76624
+,summary_profile,missing,silver,2025-09-15,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-15,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-15,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-15,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-15,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-15,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-15,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,missing,silver,2025-09-15,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-15,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,outdated,silver,2025-09-15,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,duplicated,silver,2025-09-15,global_required,symbol,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-15,global_required,symbol,1.0,2085,2085,0
+,prices,missing,silver,2025-09-16,global_required,volume,0.8075252689925008,76675,61917,14758
+close <= low,prices,outside_of_rules,silver,2025-09-16,global_required,close,0.3520313009455494,76675,26992,49683
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-16,global_required,volume,0.6561069448972938,76675,50307,26368
+,prices,outdated,silver,2025-09-16,global_required,date,0.11697424193022497,76675,8969,67706
+,prices,missing,silver,2025-09-16,global_required,close,0.9775546136289534,76675,74954,1721
+,prices,missing,silver,2025-09-16,global_required,low,0.9588522986631888,76675,73520,3155
+high < low,prices,outside_of_rules,silver,2025-09-16,global_required,high,0.0,76675,0,76675
+,prices,missing,silver,2025-09-16,global_required,high,0.9588522986631888,76675,73520,3155
+low > high,prices,outside_of_rules,silver,2025-09-16,global_required,low,0.0,76675,0,76675
+,prices,type_mismatch,silver,2025-09-16,global_required,volume,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-16,global_required,close,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-16,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-16,global_required,low,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-16,global_required,date,1.0,76675,76675,0
+,prices,missing,silver,2025-09-16,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-16,global_required,high,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-16,global_required,symbol,0.027192696446038472,76675,2085,74590
+,prices,missing,silver,2025-09-16,global_required,date,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-16,global_required,date,6.651450929246821E-4,76675,51,76624
+,summary_profile,missing,silver,2025-09-16,global_required,country,0.7318944844124701,2085,1526,559
+,summary_profile,missing,silver,2025-09-16,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-16,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-16,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-16,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-16,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-16,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,missing,silver,2025-09-16,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-16,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,missing,silver,2025-09-16,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,outdated,silver,2025-09-16,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-16,global_required,symbol,1.0,2085,2085,0
+,summary_profile,duplicated,silver,2025-09-16,global_required,symbol,1.0,2085,2085,0
+,prices,missing,silver,2025-09-17,global_required,volume,0.8075252689925008,76675,61917,14758
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-17,global_required,volume,0.6561069448972938,76675,50307,26368
+close <= low,prices,outside_of_rules,silver,2025-09-17,global_required,close,0.3520313009455494,76675,26992,49683
+,prices,outdated,silver,2025-09-17,global_required,date,0.09657645908053472,76675,7405,69270
+,prices,missing,silver,2025-09-17,global_required,low,0.9588522986631888,76675,73520,3155
+high < low,prices,outside_of_rules,silver,2025-09-17,global_required,high,0.0,76675,0,76675
+,prices,missing,silver,2025-09-17,global_required,high,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-17,global_required,close,0.9775546136289534,76675,74954,1721
+low > high,prices,outside_of_rules,silver,2025-09-17,global_required,low,0.0,76675,0,76675
+,prices,type_mismatch,silver,2025-09-17,global_required,volume,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-17,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-17,global_required,close,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-17,global_required,low,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-17,global_required,date,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-17,global_required,high,1.0,76675,76675,0
+,prices,missing,silver,2025-09-17,global_required,symbol,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-17,global_required,date,6.651450929246821E-4,76675,51,76624
+,prices,duplicated,silver,2025-09-17,global_required,symbol,0.027192696446038472,76675,2085,74590
+,prices,missing,silver,2025-09-17,global_required,date,1.0,76675,76675,0
+,summary_profile,missing,silver,2025-09-17,global_required,country,0.7318944844124701,2085,1526,559
+,summary_profile,missing,silver,2025-09-17,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-17,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-17,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-17,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-17,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-17,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-17,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,missing,silver,2025-09-17,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,outdated,silver,2025-09-17,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-17,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,duplicated,silver,2025-09-17,global_required,symbol,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-17,global_required,symbol,1.0,2085,2085,0
+,prices,missing,silver,2025-09-18,global_required,volume,0.8075252689925008,76675,61917,14758
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-18,global_required,volume,0.6561069448972938,76675,50307,26368
+close <= low,prices,outside_of_rules,silver,2025-09-18,global_required,close,0.3520313009455494,76675,26992,49683
+,prices,outdated,silver,2025-09-18,global_required,date,0.07613955004890773,76675,5838,70837
+,prices,missing,silver,2025-09-18,global_required,close,0.9775546136289534,76675,74954,1721
+,prices,missing,silver,2025-09-18,global_required,high,0.9588522986631888,76675,73520,3155
+high < low,prices,outside_of_rules,silver,2025-09-18,global_required,high,0.0,76675,0,76675
+,prices,missing,silver,2025-09-18,global_required,low,0.9588522986631888,76675,73520,3155
+,prices,type_mismatch,silver,2025-09-18,global_required,close,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-18,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-18,global_required,volume,1.0,76675,76675,0
+low > high,prices,outside_of_rules,silver,2025-09-18,global_required,low,0.0,76675,0,76675
+,prices,type_mismatch,silver,2025-09-18,global_required,date,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-18,global_required,low,1.0,76675,76675,0
+,prices,missing,silver,2025-09-18,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-18,global_required,high,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-18,global_required,symbol,0.027192696446038472,76675,2085,74590
+,summary_profile,missing,silver,2025-09-18,global_required,country,0.7318944844124701,2085,1526,559
+,prices,missing,silver,2025-09-18,global_required,date,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-18,global_required,date,6.651450929246821E-4,76675,51,76624
+,summary_profile,missing,silver,2025-09-18,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-18,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-18,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-18,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-18,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-18,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,outdated,silver,2025-09-18,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-18,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-18,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,missing,silver,2025-09-18,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,duplicated,silver,2025-09-18,global_required,symbol,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-18,global_required,symbol,1.0,2085,2085,0
+,prices,missing,silver,2025-09-19,global_required,volume,0.8075252689925008,76675,61917,14758
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-19,global_required,volume,0.6561069448972938,76675,50307,26368
+close <= low,prices,outside_of_rules,silver,2025-09-19,global_required,close,0.3520313009455494,76675,26992,49683
+,prices,outdated,silver,2025-09-19,global_required,date,0.05571568307792631,76675,4272,72403
+,prices,missing,silver,2025-09-19,global_required,high,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-19,global_required,close,0.9775546136289534,76675,74954,1721
+high < low,prices,outside_of_rules,silver,2025-09-19,global_required,high,0.0,76675,0,76675
+,prices,missing,silver,2025-09-19,global_required,low,0.9588522986631888,76675,73520,3155
+,prices,type_mismatch,silver,2025-09-19,global_required,close,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-19,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-19,global_required,volume,1.0,76675,76675,0
+low > high,prices,outside_of_rules,silver,2025-09-19,global_required,low,0.0,76675,0,76675
+,prices,missing,silver,2025-09-19,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-19,global_required,high,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-19,global_required,low,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-19,global_required,date,1.0,76675,76675,0
+,prices,missing,silver,2025-09-19,global_required,date,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-19,global_required,symbol,0.027192696446038472,76675,2085,74590
+,prices,duplicated,silver,2025-09-19,global_required,date,6.651450929246821E-4,76675,51,76624
+,summary_profile,missing,silver,2025-09-19,global_required,country,0.7318944844124701,2085,1526,559
+,summary_profile,missing,silver,2025-09-19,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-19,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-19,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-19,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-19,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-19,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-19,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,outdated,silver,2025-09-19,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-19,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,missing,silver,2025-09-19,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,duplicated,silver,2025-09-19,global_required,symbol,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-19,global_required,symbol,1.0,2085,2085,0
+,prices,missing,silver,2025-09-20,global_required,volume,0.8075252689925008,76675,61917,14758
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-20,global_required,volume,0.6561069448972938,76675,50307,26368
+close <= low,prices,outside_of_rules,silver,2025-09-20,global_required,close,0.3520313009455494,76675,26992,49683
+,prices,missing,silver,2025-09-20,global_required,high,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-20,global_required,close,0.9775546136289534,76675,74954,1721
+high < low,prices,outside_of_rules,silver,2025-09-20,global_required,high,0.0,76675,0,76675
+,prices,outdated,silver,2025-09-20,global_required,date,0.03520052168242582,76675,2699,73976
+,prices,missing,silver,2025-09-20,global_required,low,0.9588522986631888,76675,73520,3155
+,prices,type_mismatch,silver,2025-09-20,global_required,volume,1.0,76675,76675,0
+low > high,prices,outside_of_rules,silver,2025-09-20,global_required,low,0.0,76675,0,76675
+,prices,type_mismatch,silver,2025-09-20,global_required,close,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-20,global_required,symbol,1.0,76675,76675,0
+,prices,missing,silver,2025-09-20,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-20,global_required,date,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-20,global_required,high,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-20,global_required,low,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-20,global_required,symbol,0.027192696446038472,76675,2085,74590
+,summary_profile,missing,silver,2025-09-20,global_required,country,0.7318944844124701,2085,1526,559
+,prices,duplicated,silver,2025-09-20,global_required,date,6.651450929246821E-4,76675,51,76624
+,prices,missing,silver,2025-09-20,global_required,date,1.0,76675,76675,0
+,summary_profile,missing,silver,2025-09-20,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-20,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-20,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-20,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-20,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-20,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-20,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,missing,silver,2025-09-20,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,missing,silver,2025-09-20,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,outdated,silver,2025-09-20,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,duplicated,silver,2025-09-20,global_required,symbol,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-20,global_required,symbol,1.0,2085,2085,0
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-21,global_required,volume,0.6561069448972938,76675,50307,26368
+,prices,missing,silver,2025-09-21,global_required,volume,0.8075252689925008,76675,61917,14758
+,prices,missing,silver,2025-09-21,global_required,high,0.9588522986631888,76675,73520,3155
+close <= low,prices,outside_of_rules,silver,2025-09-21,global_required,close,0.3520313009455494,76675,26992,49683
+,prices,missing,silver,2025-09-21,global_required,close,0.9775546136289534,76675,74954,1721
+high < low,prices,outside_of_rules,silver,2025-09-21,global_required,high,0.0,76675,0,76675
+,prices,missing,silver,2025-09-21,global_required,low,0.9588522986631888,76675,73520,3155
+,prices,outdated,silver,2025-09-21,global_required,date,0.01446364525595044,76675,1109,75566
+,prices,type_mismatch,silver,2025-09-21,global_required,volume,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-21,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-21,global_required,close,1.0,76675,76675,0
+low > high,prices,outside_of_rules,silver,2025-09-21,global_required,low,0.0,76675,0,76675
+,prices,missing,silver,2025-09-21,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-21,global_required,date,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-21,global_required,high,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-21,global_required,low,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-21,global_required,date,6.651450929246821E-4,76675,51,76624
+,prices,missing,silver,2025-09-21,global_required,date,1.0,76675,76675,0
+,summary_profile,missing,silver,2025-09-21,global_required,country,0.7318944844124701,2085,1526,559
+,prices,duplicated,silver,2025-09-21,global_required,symbol,0.027192696446038472,76675,2085,74590
+,summary_profile,missing,silver,2025-09-21,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-21,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-21,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-21,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-21,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-21,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,outdated,silver,2025-09-21,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-21,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,missing,silver,2025-09-21,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-21,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,duplicated,silver,2025-09-21,global_required,symbol,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-21,global_required,symbol,1.0,2085,2085,0
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-22,global_required,volume,0.6561069448972938,76675,50307,26368
+close <= low,prices,outside_of_rules,silver,2025-09-22,global_required,close,0.3520313009455494,76675,26992,49683
+,prices,missing,silver,2025-09-22,global_required,high,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-22,global_required,volume,0.8075252689925008,76675,61917,14758
+,prices,missing,silver,2025-09-22,global_required,low,0.9588522986631888,76675,73520,3155
+high < low,prices,outside_of_rules,silver,2025-09-22,global_required,high,0.0,76675,0,76675
+,prices,outdated,silver,2025-09-22,global_required,date,0.01446364525595044,76675,1109,75566
+,prices,missing,silver,2025-09-22,global_required,close,0.9775546136289534,76675,74954,1721
+,prices,type_mismatch,silver,2025-09-22,global_required,volume,1.0,76675,76675,0
+low > high,prices,outside_of_rules,silver,2025-09-22,global_required,low,0.0,76675,0,76675
+,prices,type_mismatch,silver,2025-09-22,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-22,global_required,close,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-22,global_required,date,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-22,global_required,low,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-22,global_required,high,1.0,76675,76675,0
+,prices,missing,silver,2025-09-22,global_required,symbol,1.0,76675,76675,0
+,summary_profile,missing,silver,2025-09-22,global_required,country,0.7318944844124701,2085,1526,559
+,prices,missing,silver,2025-09-22,global_required,date,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-22,global_required,symbol,0.027192696446038472,76675,2085,74590
+,prices,duplicated,silver,2025-09-22,global_required,date,6.651450929246821E-4,76675,51,76624
+,summary_profile,missing,silver,2025-09-22,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,missing,silver,2025-09-22,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-22,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-22,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-22,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-22,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,missing,silver,2025-09-22,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-22,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,outdated,silver,2025-09-22,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-22,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,duplicated,silver,2025-09-22,global_required,symbol,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-22,global_required,symbol,1.0,2085,2085,0
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-23,global_required,volume,0.6561069448972938,76675,50307,26368
+,prices,missing,silver,2025-09-23,global_required,high,0.9588522986631888,76675,73520,3155
+,prices,missing,silver,2025-09-23,global_required,volume,0.8075252689925008,76675,61917,14758
+close <= low,prices,outside_of_rules,silver,2025-09-23,global_required,close,0.3520313009455494,76675,26992,49683
+,prices,missing,silver,2025-09-23,global_required,close,0.9775546136289534,76675,74954,1721
+,prices,outdated,silver,2025-09-23,global_required,date,0.01446364525595044,76675,1109,75566
+,prices,missing,silver,2025-09-23,global_required,low,0.9588522986631888,76675,73520,3155
+high < low,prices,outside_of_rules,silver,2025-09-23,global_required,high,0.0,76675,0,76675
+low > high,prices,outside_of_rules,silver,2025-09-23,global_required,low,0.0,76675,0,76675
+,prices,type_mismatch,silver,2025-09-23,global_required,volume,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-23,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-23,global_required,close,1.0,76675,76675,0
+,prices,missing,silver,2025-09-23,global_required,symbol,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-23,global_required,high,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-23,global_required,low,1.0,76675,76675,0
+,prices,type_mismatch,silver,2025-09-23,global_required,date,1.0,76675,76675,0
+,prices,duplicated,silver,2025-09-23,global_required,date,6.651450929246821E-4,76675,51,76624
+,prices,missing,silver,2025-09-23,global_required,date,1.0,76675,76675,0
+,summary_profile,missing,silver,2025-09-23,global_required,country,0.7318944844124701,2085,1526,559
+,prices,duplicated,silver,2025-09-23,global_required,symbol,0.027192696446038472,76675,2085,74590
+,summary_profile,missing,silver,2025-09-23,global_required,state,0.4594724220623501,2085,958,1127
+,summary_profile,missing,silver,2025-09-23,local_optional,address1,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-23,local_required,BusinessSummary,0.5011990407673861,2085,1045,1040
+,summary_profile,missing,silver,2025-09-23,local_optional,industry,0.5880095923261391,2085,1226,859
+,summary_profile,missing,silver,2025-09-23,local_optional,address2,0.3160671462829736,2085,659,1426
+,summary_profile,outdated,silver,2025-09-23,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-23,local_required,sector,0.5851318944844125,2085,1220,865
+,summary_profile,missing,silver,2025-09-23,global_required,zip,0.48345323741007196,2085,1008,1077
+,summary_profile,missing,silver,2025-09-23,global_required,loaded_at,1.0,2085,2085,0
+,summary_profile,missing,silver,2025-09-23,global_required,city,0.5256594724220623,2085,1096,989
+,summary_profile,missing,silver,2025-09-23,global_required,symbol,1.0,2085,2085,0
+,summary_profile,duplicated,silver,2025-09-23,global_required,symbol,1.0,2085,2085,0
+close <= low,prices,outside_of_rules,silver,2025-09-24,global_required,close,0.35689083264667976,94662,33784,60878
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-24,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,outdated,silver,2025-09-24,global_required,date,0.17897361137520865,94662,16942,77720
+,prices,missing,silver,2025-09-24,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,missing,silver,2025-09-24,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,missing,silver,2025-09-24,global_required,low,0.960765671547189,94662,90948,3714
+,prices,missing,silver,2025-09-24,global_required,high,0.9608079271513384,94662,90952,3710
+high < low,prices,outside_of_rules,silver,2025-09-24,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-09-24,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-24,global_required,volume,1.0,94662,94662,0
+low > high,prices,outside_of_rules,silver,2025-09-24,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-09-24,global_required,symbol,1.0,94662,94662,0
+,prices,missing,silver,2025-09-24,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-24,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-24,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-24,global_required,low,1.0,94662,94662,0
+,prices,duplicated,silver,2025-09-24,global_required,symbol,0.022025733662927045,94662,2085,92577
+,prices,duplicated,silver,2025-09-24,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-09-24,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,missing,silver,2025-09-24,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-09-24,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-09-24,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-09-24,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-09-24,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-09-24,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-09-24,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-09-24,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,outdated,silver,2025-09-24,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-09-24,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-09-24,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-09-24,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-09-24,global_required,symbol,0.5,4170,2085,2085
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-25,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,missing,silver,2025-09-25,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,outdated,silver,2025-09-25,global_required,date,0.1625044896579409,94662,15383,79279
+close <= low,prices,outside_of_rules,silver,2025-09-25,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-09-25,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,missing,silver,2025-09-25,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,missing,silver,2025-09-25,global_required,low,0.960765671547189,94662,90948,3714
+high < low,prices,outside_of_rules,silver,2025-09-25,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-09-25,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-25,global_required,close,1.0,94662,94662,0
+low > high,prices,outside_of_rules,silver,2025-09-25,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-09-25,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-25,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-25,global_required,low,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-25,global_required,date,1.0,94662,94662,0
+,prices,missing,silver,2025-09-25,global_required,symbol,1.0,94662,94662,0
+,prices,duplicated,silver,2025-09-25,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-09-25,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,missing,silver,2025-09-25,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-09-25,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-09-25,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-09-25,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-09-25,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-09-25,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-09-25,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-09-25,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-09-25,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-09-25,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,outdated,silver,2025-09-25,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-09-25,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,duplicated,silver,2025-09-25,global_required,symbol,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-09-25,global_required,symbol,1.0,4170,4170,0
+close <= low,prices,outside_of_rules,silver,2025-09-26,global_required,close,0.35689083264667976,94662,33784,60878
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-26,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,outdated,silver,2025-09-26,global_required,date,0.14603536794067312,94662,13824,80838
+,prices,missing,silver,2025-09-26,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,missing,silver,2025-09-26,global_required,high,0.9608079271513384,94662,90952,3710
+high < low,prices,outside_of_rules,silver,2025-09-26,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-09-26,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,missing,silver,2025-09-26,global_required,low,0.960765671547189,94662,90948,3714
+,prices,type_mismatch,silver,2025-09-26,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-26,global_required,symbol,1.0,94662,94662,0
+low > high,prices,outside_of_rules,silver,2025-09-26,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-09-26,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-26,global_required,date,1.0,94662,94662,0
+,prices,missing,silver,2025-09-26,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-26,global_required,low,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-26,global_required,high,1.0,94662,94662,0
+,prices,missing,silver,2025-09-26,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-09-26,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,duplicated,silver,2025-09-26,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,duplicated,silver,2025-09-26,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-09-26,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-09-26,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-09-26,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-09-26,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-09-26,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-09-26,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-09-26,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-09-26,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,outdated,silver,2025-09-26,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-09-26,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-09-26,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-09-26,global_required,symbol,0.5,4170,2085,2085
+,prices,outdated,silver,2025-09-27,global_required,date,0.12957681012444275,94662,12266,82396
+,prices,missing,silver,2025-09-27,global_required,volume,0.8077581289218483,94662,76464,18198
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-27,global_required,volume,0.6562295324417401,94662,62120,32542
+close <= low,prices,outside_of_rules,silver,2025-09-27,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-09-27,global_required,low,0.960765671547189,94662,90948,3714
+,prices,missing,silver,2025-09-27,global_required,close,0.9770340791447466,94662,92488,2174
+high < low,prices,outside_of_rules,silver,2025-09-27,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-09-27,global_required,high,0.9608079271513384,94662,90952,3710
+low > high,prices,outside_of_rules,silver,2025-09-27,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-09-27,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-27,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-27,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-27,global_required,low,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-27,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-27,global_required,high,1.0,94662,94662,0
+,prices,missing,silver,2025-09-27,global_required,symbol,1.0,94662,94662,0
+,prices,missing,silver,2025-09-27,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-09-27,global_required,symbol,0.022025733662927045,94662,2085,92577
+,prices,duplicated,silver,2025-09-27,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-09-27,global_required,country,0.7318944844124701,4170,3052,1118
+,summary_profile,missing,silver,2025-09-27,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-09-27,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-09-27,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-09-27,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-09-27,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-09-27,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-09-27,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-09-27,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-09-27,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,outdated,silver,2025-09-27,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-09-27,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-09-27,global_required,symbol,0.5,4170,2085,2085
+close <= low,prices,outside_of_rules,silver,2025-09-28,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-09-28,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,outdated,silver,2025-09-28,global_required,date,0.113107688407175,94662,10707,83955
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-28,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,missing,silver,2025-09-28,global_required,low,0.960765671547189,94662,90948,3714
+high < low,prices,outside_of_rules,silver,2025-09-28,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-09-28,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,missing,silver,2025-09-28,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,type_mismatch,silver,2025-09-28,global_required,symbol,1.0,94662,94662,0
+low > high,prices,outside_of_rules,silver,2025-09-28,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-09-28,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-28,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-28,global_required,low,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-28,global_required,date,1.0,94662,94662,0
+,prices,missing,silver,2025-09-28,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-28,global_required,high,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-09-28,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,missing,silver,2025-09-28,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-09-28,global_required,symbol,0.022025733662927045,94662,2085,92577
+,prices,duplicated,silver,2025-09-28,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-09-28,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-09-28,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-09-28,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-09-28,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-09-28,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-09-28,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,outdated,silver,2025-09-28,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-09-28,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-09-28,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-09-28,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,duplicated,silver,2025-09-28,global_required,symbol,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-09-28,global_required,symbol,1.0,4170,4170,0
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-29,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,outdated,silver,2025-09-29,global_required,date,0.113107688407175,94662,10707,83955
+,prices,missing,silver,2025-09-29,global_required,volume,0.8077581289218483,94662,76464,18198
+close <= low,prices,outside_of_rules,silver,2025-09-29,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-09-29,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,missing,silver,2025-09-29,global_required,low,0.960765671547189,94662,90948,3714
+high < low,prices,outside_of_rules,silver,2025-09-29,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-09-29,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,type_mismatch,silver,2025-09-29,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-29,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-29,global_required,volume,1.0,94662,94662,0
+low > high,prices,outside_of_rules,silver,2025-09-29,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-09-29,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-29,global_required,low,1.0,94662,94662,0
+,prices,missing,silver,2025-09-29,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-29,global_required,high,1.0,94662,94662,0
+,prices,duplicated,silver,2025-09-29,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,duplicated,silver,2025-09-29,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-09-29,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,missing,silver,2025-09-29,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-09-29,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-09-29,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-09-29,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-09-29,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-09-29,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,outdated,silver,2025-09-29,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-09-29,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-09-29,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-09-29,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-09-29,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-09-29,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-09-29,global_required,symbol,0.5,4170,2085,2085
+,prices,outdated,silver,2025-09-30,global_required,date,0.113107688407175,94662,10707,83955
+close <= low,prices,outside_of_rules,silver,2025-09-30,global_required,close,0.35689083264667976,94662,33784,60878
+volumn too low (<10000),prices,outside_of_rules,silver,2025-09-30,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,missing,silver,2025-09-30,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,missing,silver,2025-09-30,global_required,close,0.9770340791447466,94662,92488,2174
+high < low,prices,outside_of_rules,silver,2025-09-30,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-09-30,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,missing,silver,2025-09-30,global_required,low,0.960765671547189,94662,90948,3714
+,prices,type_mismatch,silver,2025-09-30,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-30,global_required,volume,1.0,94662,94662,0
+low > high,prices,outside_of_rules,silver,2025-09-30,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-09-30,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-30,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-30,global_required,low,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-09-30,global_required,date,1.0,94662,94662,0
+,prices,missing,silver,2025-09-30,global_required,symbol,1.0,94662,94662,0
+,prices,duplicated,silver,2025-09-30,global_required,symbol,0.022025733662927045,94662,2085,92577
+,prices,duplicated,silver,2025-09-30,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,missing,silver,2025-09-30,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-09-30,global_required,country,0.7318944844124701,4170,3052,1118
+,summary_profile,missing,silver,2025-09-30,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-09-30,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-09-30,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-09-30,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-09-30,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,outdated,silver,2025-09-30,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-09-30,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-09-30,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-09-30,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-09-30,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-09-30,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-09-30,global_required,symbol,0.5,4170,2085,2085
+,prices,outdated,silver,2025-10-01,global_required,date,0.0966174388878325,94662,9146,85516
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-01,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,missing,silver,2025-10-01,global_required,volume,0.8077581289218483,94662,76464,18198
+close <= low,prices,outside_of_rules,silver,2025-10-01,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-01,global_required,close,0.9770340791447466,94662,92488,2174
+high < low,prices,outside_of_rules,silver,2025-10-01,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-01,global_required,low,0.960765671547189,94662,90948,3714
+,prices,missing,silver,2025-10-01,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,type_mismatch,silver,2025-10-01,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-01,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-01,global_required,symbol,1.0,94662,94662,0
+low > high,prices,outside_of_rules,silver,2025-10-01,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-01,global_required,date,1.0,94662,94662,0
+,prices,missing,silver,2025-10-01,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-01,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-01,global_required,low,1.0,94662,94662,0
+,prices,missing,silver,2025-10-01,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-01,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-10-01,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,duplicated,silver,2025-10-01,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-01,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-01,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-01,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-01,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-01,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-01,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,outdated,silver,2025-10-01,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-01,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-10-01,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-10-01,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-01,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-10-01,global_required,symbol,0.5,4170,2085,2085
+,prices,missing,silver,2025-10-02,global_required,volume,0.8077581289218483,94662,76464,18198
+close <= low,prices,outside_of_rules,silver,2025-10-02,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,outdated,silver,2025-10-02,global_required,date,0.08011662546745262,94662,7584,87078
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-02,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,missing,silver,2025-10-02,global_required,low,0.960765671547189,94662,90948,3714
+,prices,missing,silver,2025-10-02,global_required,high,0.9608079271513384,94662,90952,3710
+high < low,prices,outside_of_rules,silver,2025-10-02,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-02,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,type_mismatch,silver,2025-10-02,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-02,global_required,volume,1.0,94662,94662,0
+low > high,prices,outside_of_rules,silver,2025-10-02,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-02,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-02,global_required,low,1.0,94662,94662,0
+,prices,missing,silver,2025-10-02,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-02,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-02,global_required,date,1.0,94662,94662,0
+,prices,missing,silver,2025-10-02,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-02,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,duplicated,silver,2025-10-02,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-02,global_required,country,0.7318944844124701,4170,3052,1118
+,summary_profile,missing,silver,2025-10-02,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-02,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-02,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-02,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-02,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-02,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-02,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-10-02,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-02,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,outdated,silver,2025-10-02,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-02,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-10-02,global_required,symbol,0.5,4170,2085,2085
+close <= low,prices,outside_of_rules,silver,2025-10-03,global_required,close,0.35689083264667976,94662,33784,60878
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-03,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,outdated,silver,2025-10-03,global_required,date,0.06361581204707274,94662,6022,88640
+,prices,missing,silver,2025-10-03,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,missing,silver,2025-10-03,global_required,high,0.9608079271513384,94662,90952,3710
+high < low,prices,outside_of_rules,silver,2025-10-03,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-03,global_required,low,0.960765671547189,94662,90948,3714
+,prices,missing,silver,2025-10-03,global_required,close,0.9770340791447466,94662,92488,2174
+low > high,prices,outside_of_rules,silver,2025-10-03,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-03,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-03,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-03,global_required,close,1.0,94662,94662,0
+,prices,missing,silver,2025-10-03,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-03,global_required,low,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-03,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-03,global_required,high,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-03,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,missing,silver,2025-10-03,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-03,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-03,global_required,country,0.7318944844124701,4170,3052,1118
+,summary_profile,missing,silver,2025-10-03,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-03,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-03,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-03,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-03,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-03,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-03,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-10-03,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-03,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,outdated,silver,2025-10-03,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,duplicated,silver,2025-10-03,global_required,symbol,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-03,global_required,symbol,1.0,4170,4170,0
+close <= low,prices,outside_of_rules,silver,2025-10-04,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-04,global_required,volume,0.8077581289218483,94662,76464,18198
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-04,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,outdated,silver,2025-10-04,global_required,date,0.04709387082461811,94662,4458,90204
+high < low,prices,outside_of_rules,silver,2025-10-04,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-04,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,missing,silver,2025-10-04,global_required,low,0.960765671547189,94662,90948,3714
+,prices,missing,silver,2025-10-04,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,type_mismatch,silver,2025-10-04,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-04,global_required,symbol,1.0,94662,94662,0
+low > high,prices,outside_of_rules,silver,2025-10-04,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-04,global_required,close,1.0,94662,94662,0
+,prices,missing,silver,2025-10-04,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-04,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-04,global_required,low,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-04,global_required,high,1.0,94662,94662,0
+,prices,missing,silver,2025-10-04,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-04,global_required,symbol,0.022025733662927045,94662,2085,92577
+,prices,duplicated,silver,2025-10-04,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-10-04,global_required,country,0.7318944844124701,4170,3052,1118
+,summary_profile,missing,silver,2025-10-04,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-04,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-04,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-04,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-04,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,outdated,silver,2025-10-04,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-04,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-04,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-10-04,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-04,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,duplicated,silver,2025-10-04,global_required,symbol,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-04,global_required,symbol,1.0,4170,4170,0
+close <= low,prices,outside_of_rules,silver,2025-10-05,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-05,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,missing,silver,2025-10-05,global_required,low,0.960765671547189,94662,90948,3714
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-05,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,missing,silver,2025-10-05,global_required,high,0.9608079271513384,94662,90952,3710
+high < low,prices,outside_of_rules,silver,2025-10-05,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-05,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,outdated,silver,2025-10-05,global_required,date,0.03049798229490186,94662,2887,91775
+,prices,type_mismatch,silver,2025-10-05,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-05,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-05,global_required,symbol,1.0,94662,94662,0
+low > high,prices,outside_of_rules,silver,2025-10-05,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-05,global_required,low,1.0,94662,94662,0
+,prices,missing,silver,2025-10-05,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-05,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-05,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-05,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,duplicated,silver,2025-10-05,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-05,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,missing,silver,2025-10-05,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-10-05,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-05,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-05,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-05,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-05,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-05,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-05,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-10-05,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-05,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,outdated,silver,2025-10-05,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-05,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-10-05,global_required,symbol,0.5,4170,2085,2085
+close <= low,prices,outside_of_rules,silver,2025-10-06,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-06,global_required,low,0.960765671547189,94662,90948,3714
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-06,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,missing,silver,2025-10-06,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,outdated,silver,2025-10-06,global_required,date,0.03049798229490186,94662,2887,91775
+,prices,missing,silver,2025-10-06,global_required,high,0.9608079271513384,94662,90952,3710
+high < low,prices,outside_of_rules,silver,2025-10-06,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-06,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,type_mismatch,silver,2025-10-06,global_required,symbol,1.0,94662,94662,0
+low > high,prices,outside_of_rules,silver,2025-10-06,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-06,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-06,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-06,global_required,date,1.0,94662,94662,0
+,prices,missing,silver,2025-10-06,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-06,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-06,global_required,low,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-06,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-10-06,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,missing,silver,2025-10-06,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-06,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-06,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-06,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-06,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-06,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-06,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,outdated,silver,2025-10-06,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-06,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-06,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-10-06,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-06,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,duplicated,silver,2025-10-06,global_required,symbol,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-06,global_required,symbol,1.0,4170,4170,0
+,prices,missing,silver,2025-10-07,global_required,low,0.960765671547189,94662,90948,3714
+,prices,missing,silver,2025-10-07,global_required,volume,0.8077581289218483,94662,76464,18198
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-07,global_required,volume,0.6562295324417401,94662,62120,32542
+close <= low,prices,outside_of_rules,silver,2025-10-07,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-07,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,missing,silver,2025-10-07,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,outdated,silver,2025-10-07,global_required,date,0.03049798229490186,94662,2887,91775
+high < low,prices,outside_of_rules,silver,2025-10-07,global_required,high,2.1127802074750163E-5,94662,2,94660
+low > high,prices,outside_of_rules,silver,2025-10-07,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-07,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-07,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-07,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-07,global_required,low,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-07,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-07,global_required,high,1.0,94662,94662,0
+,prices,missing,silver,2025-10-07,global_required,symbol,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-07,global_required,symbol,0.022025733662927045,94662,2085,92577
+,prices,missing,silver,2025-10-07,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-10-07,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,duplicated,silver,2025-10-07,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-10-07,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-07,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-07,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-07,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-07,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,outdated,silver,2025-10-07,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-07,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-07,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-07,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-10-07,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,duplicated,silver,2025-10-07,global_required,symbol,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-07,global_required,symbol,1.0,4170,4170,0
+close <= low,prices,outside_of_rules,silver,2025-10-08,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-08,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,missing,silver,2025-10-08,global_required,low,0.960765671547189,94662,90948,3714
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-08,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,outdated,silver,2025-10-08,global_required,date,0.013933785468297733,94662,1319,93343
+,prices,missing,silver,2025-10-08,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,missing,silver,2025-10-08,global_required,high,0.9608079271513384,94662,90952,3710
+high < low,prices,outside_of_rules,silver,2025-10-08,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-08,global_required,close,1.0,94662,94662,0
+low > high,prices,outside_of_rules,silver,2025-10-08,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-08,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-08,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-08,global_required,low,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-08,global_required,date,1.0,94662,94662,0
+,prices,missing,silver,2025-10-08,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-08,global_required,high,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-08,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,duplicated,silver,2025-10-08,global_required,symbol,0.022025733662927045,94662,2085,92577
+,prices,missing,silver,2025-10-08,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-10-08,global_required,country,0.7318944844124701,4170,3052,1118
+,summary_profile,missing,silver,2025-10-08,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-08,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-08,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-08,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-08,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,outdated,silver,2025-10-08,global_required,loaded_at,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-08,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-10-08,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-08,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-10-08,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-08,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-10-08,global_required,symbol,0.5,4170,2085,2085
+close <= low,prices,outside_of_rules,silver,2025-10-09,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-09,global_required,low,0.960765671547189,94662,90948,3714
+,prices,missing,silver,2025-10-09,global_required,volume,0.8077581289218483,94662,76464,18198
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-09,global_required,volume,0.6562295324417401,94662,62120,32542
+low > high,prices,outside_of_rules,silver,2025-10-09,global_required,low,2.1127802074750163E-5,94662,2,94660
+high < low,prices,outside_of_rules,silver,2025-10-09,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-09,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,missing,silver,2025-10-09,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,type_mismatch,silver,2025-10-09,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-09,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-09,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-09,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-09,global_required,low,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-09,global_required,high,1.0,94662,94662,0
+,prices,missing,silver,2025-10-09,global_required,symbol,1.0,94662,94662,0
+,prices,outdated,silver,2025-10-09,global_required,date,0.0,94662,0,94662
+,prices,duplicated,silver,2025-10-09,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-09,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,duplicated,silver,2025-10-09,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,missing,silver,2025-10-09,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-10-09,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-09,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-09,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-09,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-09,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-09,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-10-09,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-09,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,outdated,silver,2025-10-09,global_required,loaded_at,0.0,4170,0,4170
+,summary_profile,missing,silver,2025-10-09,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,duplicated,silver,2025-10-09,global_required,symbol,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-09,global_required,symbol,1.0,4170,4170,0
+,prices,missing,silver,2025-10-10,global_required,low,0.960765671547189,94662,90948,3714
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-10,global_required,volume,0.6562295324417401,94662,62120,32542
+close <= low,prices,outside_of_rules,silver,2025-10-10,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-10,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,missing,silver,2025-10-10,global_required,close,0.9770340791447466,94662,92488,2174
+high < low,prices,outside_of_rules,silver,2025-10-10,global_required,high,2.1127802074750163E-5,94662,2,94660
+low > high,prices,outside_of_rules,silver,2025-10-10,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-10,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,type_mismatch,silver,2025-10-10,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-10,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-10,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-10,global_required,volume,1.0,94662,94662,0
+,prices,missing,silver,2025-10-10,global_required,symbol,1.0,94662,94662,0
+,prices,outdated,silver,2025-10-10,global_required,date,0.0,94662,0,94662
+,prices,type_mismatch,silver,2025-10-10,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-10,global_required,low,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-10,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-10-10,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,duplicated,silver,2025-10-10,global_required,symbol,0.022025733662927045,94662,2085,92577
+,prices,missing,silver,2025-10-10,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-10-10,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-10,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-10,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-10,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-10,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-10,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-10,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-10,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,outdated,silver,2025-10-10,global_required,loaded_at,0.0,4170,0,4170
+,summary_profile,missing,silver,2025-10-10,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-10-10,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-10-10,global_required,symbol,0.5,4170,2085,2085
+,prices,missing,silver,2025-10-11,global_required,volume,0.8077581289218483,94662,76464,18198
+close <= low,prices,outside_of_rules,silver,2025-10-11,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-11,global_required,low,0.960765671547189,94662,90948,3714
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-11,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,missing,silver,2025-10-11,global_required,high,0.9608079271513384,94662,90952,3710
+low > high,prices,outside_of_rules,silver,2025-10-11,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-11,global_required,close,0.9770340791447466,94662,92488,2174
+high < low,prices,outside_of_rules,silver,2025-10-11,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-11,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-11,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-11,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-11,global_required,symbol,1.0,94662,94662,0
+,prices,missing,silver,2025-10-11,global_required,symbol,1.0,94662,94662,0
+,prices,outdated,silver,2025-10-11,global_required,date,0.0,94662,0,94662
+,prices,type_mismatch,silver,2025-10-11,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-11,global_required,low,1.0,94662,94662,0
+,prices,missing,silver,2025-10-11,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-11,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-10-11,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,duplicated,silver,2025-10-11,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-11,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-11,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-11,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-11,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-11,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-11,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-11,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-11,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-10-11,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,outdated,silver,2025-10-11,global_required,loaded_at,0.0,4170,0,4170
+,summary_profile,missing,silver,2025-10-11,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-10-11,global_required,symbol,0.5,4170,2085,2085
+close <= low,prices,outside_of_rules,silver,2025-10-12,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-12,global_required,volume,0.8077581289218483,94662,76464,18198
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-12,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,missing,silver,2025-10-12,global_required,low,0.960765671547189,94662,90948,3714
+high < low,prices,outside_of_rules,silver,2025-10-12,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-12,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,missing,silver,2025-10-12,global_required,high,0.9608079271513384,94662,90952,3710
+low > high,prices,outside_of_rules,silver,2025-10-12,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-12,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-12,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-12,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-12,global_required,date,1.0,94662,94662,0
+,prices,outdated,silver,2025-10-12,global_required,date,0.0,94662,0,94662
+,prices,missing,silver,2025-10-12,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-12,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-12,global_required,low,1.0,94662,94662,0
+,prices,missing,silver,2025-10-12,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-10-12,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,duplicated,silver,2025-10-12,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,duplicated,silver,2025-10-12,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-12,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-12,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-12,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-12,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-12,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-12,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-10-12,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-12,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-10-12,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,outdated,silver,2025-10-12,global_required,loaded_at,0.0,4170,0,4170
+,summary_profile,missing,silver,2025-10-12,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-10-12,global_required,symbol,0.5,4170,2085,2085
+,prices,missing,silver,2025-10-13,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,missing,silver,2025-10-13,global_required,low,0.960765671547189,94662,90948,3714
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-13,global_required,volume,0.6562295324417401,94662,62120,32542
+close <= low,prices,outside_of_rules,silver,2025-10-13,global_required,close,0.35689083264667976,94662,33784,60878
+high < low,prices,outside_of_rules,silver,2025-10-13,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-13,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,missing,silver,2025-10-13,global_required,close,0.9770340791447466,94662,92488,2174
+low > high,prices,outside_of_rules,silver,2025-10-13,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-13,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-13,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-13,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-13,global_required,date,1.0,94662,94662,0
+,prices,missing,silver,2025-10-13,global_required,symbol,1.0,94662,94662,0
+,prices,outdated,silver,2025-10-13,global_required,date,0.0,94662,0,94662
+,prices,type_mismatch,silver,2025-10-13,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-13,global_required,low,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-13,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-13,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,duplicated,silver,2025-10-13,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,missing,silver,2025-10-13,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-10-13,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-13,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-13,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-13,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-13,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-13,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-10-13,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,outdated,silver,2025-10-13,global_required,loaded_at,0.0,4170,0,4170
+,summary_profile,missing,silver,2025-10-13,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-10-13,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-13,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-10-13,global_required,symbol,0.5,4170,2085,2085
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-14,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,missing,silver,2025-10-14,global_required,low,0.960765671547189,94662,90948,3714
+close <= low,prices,outside_of_rules,silver,2025-10-14,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-14,global_required,volume,0.8077581289218483,94662,76464,18198
+low > high,prices,outside_of_rules,silver,2025-10-14,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-14,global_required,close,0.9770340791447466,94662,92488,2174
+high < low,prices,outside_of_rules,silver,2025-10-14,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-14,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,type_mismatch,silver,2025-10-14,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-14,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-14,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-14,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-14,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-14,global_required,low,1.0,94662,94662,0
+,prices,outdated,silver,2025-10-14,global_required,date,0.0,94662,0,94662
+,prices,missing,silver,2025-10-14,global_required,symbol,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-14,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,missing,silver,2025-10-14,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-10-14,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,duplicated,silver,2025-10-14,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-14,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-14,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-14,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-14,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-14,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-14,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-10-14,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,outdated,silver,2025-10-14,global_required,loaded_at,0.0,4170,0,4170
+,summary_profile,missing,silver,2025-10-14,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-14,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-10-14,global_required,symbol,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-14,global_required,symbol,1.0,4170,4170,0
+close <= low,prices,outside_of_rules,silver,2025-10-15,global_required,close,0.35689083264667976,94662,33784,60878
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-15,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,missing,silver,2025-10-15,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,missing,silver,2025-10-15,global_required,low,0.960765671547189,94662,90948,3714
+high < low,prices,outside_of_rules,silver,2025-10-15,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-15,global_required,high,0.9608079271513384,94662,90952,3710
+low > high,prices,outside_of_rules,silver,2025-10-15,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-15,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,type_mismatch,silver,2025-10-15,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-15,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-15,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-15,global_required,symbol,1.0,94662,94662,0
+,prices,outdated,silver,2025-10-15,global_required,date,0.0,94662,0,94662
+,prices,missing,silver,2025-10-15,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-15,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-15,global_required,low,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-15,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-10-15,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,missing,silver,2025-10-15,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-15,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-15,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-15,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-15,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-15,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-15,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-15,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-15,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,outdated,silver,2025-10-15,global_required,loaded_at,0.0,4170,0,4170
+,summary_profile,missing,silver,2025-10-15,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-15,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,duplicated,silver,2025-10-15,global_required,symbol,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-15,global_required,symbol,1.0,4170,4170,0
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-16,global_required,volume,0.6562295324417401,94662,62120,32542
+close <= low,prices,outside_of_rules,silver,2025-10-16,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-16,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,missing,silver,2025-10-16,global_required,low,0.960765671547189,94662,90948,3714
+low > high,prices,outside_of_rules,silver,2025-10-16,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-16,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,missing,silver,2025-10-16,global_required,high,0.9608079271513384,94662,90952,3710
+high < low,prices,outside_of_rules,silver,2025-10-16,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-16,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-16,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-16,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-16,global_required,symbol,1.0,94662,94662,0
+,prices,missing,silver,2025-10-16,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-16,global_required,low,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-16,global_required,high,1.0,94662,94662,0
+,prices,outdated,silver,2025-10-16,global_required,date,0.0,94662,0,94662
+,prices,missing,silver,2025-10-16,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-16,global_required,symbol,0.022025733662927045,94662,2085,92577
+,prices,duplicated,silver,2025-10-16,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-10-16,global_required,country,0.7318944844124701,4170,3052,1118
+,summary_profile,missing,silver,2025-10-16,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-16,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-16,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-16,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-16,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-16,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-10-16,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-10-16,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-16,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,outdated,silver,2025-10-16,global_required,loaded_at,0.0,4170,0,4170
+,summary_profile,duplicated,silver,2025-10-16,global_required,symbol,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-16,global_required,symbol,1.0,4170,4170,0
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-17,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,missing,silver,2025-10-17,global_required,volume,0.8077581289218483,94662,76464,18198
+close <= low,prices,outside_of_rules,silver,2025-10-17,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-17,global_required,low,0.960765671547189,94662,90948,3714
+,prices,missing,silver,2025-10-17,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,missing,silver,2025-10-17,global_required,close,0.9770340791447466,94662,92488,2174
+low > high,prices,outside_of_rules,silver,2025-10-17,global_required,low,2.1127802074750163E-5,94662,2,94660
+high < low,prices,outside_of_rules,silver,2025-10-17,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-17,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-17,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-17,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-17,global_required,volume,1.0,94662,94662,0
+,prices,missing,silver,2025-10-17,global_required,symbol,1.0,94662,94662,0
+,prices,outdated,silver,2025-10-17,global_required,date,0.0,94662,0,94662
+,prices,type_mismatch,silver,2025-10-17,global_required,low,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-17,global_required,high,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-10-17,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,duplicated,silver,2025-10-17,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,duplicated,silver,2025-10-17,global_required,symbol,0.022025733662927045,94662,2085,92577
+,prices,missing,silver,2025-10-17,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-10-17,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-17,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-17,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-17,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-17,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-17,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-17,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-10-17,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-10-17,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,outdated,silver,2025-10-17,global_required,loaded_at,0.0,4170,0,4170
+,summary_profile,missing,silver,2025-10-17,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-10-17,global_required,symbol,0.5,4170,2085,2085
+close <= low,prices,outside_of_rules,silver,2025-10-18,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-18,global_required,low,0.960765671547189,94662,90948,3714
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-18,global_required,volume,0.6562295324417401,94662,62120,32542
+,prices,missing,silver,2025-10-18,global_required,volume,0.8077581289218483,94662,76464,18198
+low > high,prices,outside_of_rules,silver,2025-10-18,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-18,global_required,high,0.9608079271513384,94662,90952,3710
+high < low,prices,outside_of_rules,silver,2025-10-18,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,missing,silver,2025-10-18,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,type_mismatch,silver,2025-10-18,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-18,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-18,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-18,global_required,volume,1.0,94662,94662,0
+,prices,outdated,silver,2025-10-18,global_required,date,0.0,94662,0,94662
+,prices,type_mismatch,silver,2025-10-18,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-18,global_required,low,1.0,94662,94662,0
+,prices,missing,silver,2025-10-18,global_required,symbol,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-18,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,duplicated,silver,2025-10-18,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-18,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,missing,silver,2025-10-18,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-10-18,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-18,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-18,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-18,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-18,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-18,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,outdated,silver,2025-10-18,global_required,loaded_at,0.0,4170,0,4170
+,summary_profile,missing,silver,2025-10-18,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-10-18,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-18,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-18,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-10-18,global_required,symbol,0.5,4170,2085,2085
+,prices,missing,silver,2025-10-19,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,missing,silver,2025-10-19,global_required,low,0.960765671547189,94662,90948,3714
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-19,global_required,volume,0.6562295324417401,94662,62120,32542
+close <= low,prices,outside_of_rules,silver,2025-10-19,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-19,global_required,close,0.9770340791447466,94662,92488,2174
+,prices,missing,silver,2025-10-19,global_required,high,0.9608079271513384,94662,90952,3710
+low > high,prices,outside_of_rules,silver,2025-10-19,global_required,low,2.1127802074750163E-5,94662,2,94660
+high < low,prices,outside_of_rules,silver,2025-10-19,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-19,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-19,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-19,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-19,global_required,date,1.0,94662,94662,0
+,prices,missing,silver,2025-10-19,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-19,global_required,low,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-19,global_required,high,1.0,94662,94662,0
+,prices,outdated,silver,2025-10-19,global_required,date,0.0,94662,0,94662
+,prices,duplicated,silver,2025-10-19,global_required,date,6.54961864317255E-4,94662,62,94600
+,prices,missing,silver,2025-10-19,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-19,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-19,global_required,country,0.7318944844124701,4170,3052,1118
+,summary_profile,missing,silver,2025-10-19,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-19,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-19,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-19,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-19,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-19,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,outdated,silver,2025-10-19,global_required,loaded_at,0.0,4170,0,4170
+,summary_profile,missing,silver,2025-10-19,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-10-19,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-19,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,duplicated,silver,2025-10-19,global_required,symbol,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-19,global_required,symbol,1.0,4170,4170,0
+,prices,missing,silver,2025-10-20,global_required,low,0.960765671547189,94662,90948,3714
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-20,global_required,volume,0.6562295324417401,94662,62120,32542
+close <= low,prices,outside_of_rules,silver,2025-10-20,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-20,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,missing,silver,2025-10-20,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,missing,silver,2025-10-20,global_required,close,0.9770340791447466,94662,92488,2174
+low > high,prices,outside_of_rules,silver,2025-10-20,global_required,low,2.1127802074750163E-5,94662,2,94660
+high < low,prices,outside_of_rules,silver,2025-10-20,global_required,high,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-20,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-20,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-20,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-20,global_required,volume,1.0,94662,94662,0
+,prices,outdated,silver,2025-10-20,global_required,date,0.0,94662,0,94662
+,prices,type_mismatch,silver,2025-10-20,global_required,high,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-20,global_required,low,1.0,94662,94662,0
+,prices,missing,silver,2025-10-20,global_required,symbol,1.0,94662,94662,0
+,prices,missing,silver,2025-10-20,global_required,date,1.0,94662,94662,0
+,summary_profile,missing,silver,2025-10-20,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,duplicated,silver,2025-10-20,global_required,symbol,0.022025733662927045,94662,2085,92577
+,prices,duplicated,silver,2025-10-20,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-10-20,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-20,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-20,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-20,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-20,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-20,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-20,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,outdated,silver,2025-10-20,global_required,loaded_at,0.0,4170,0,4170
+,summary_profile,missing,silver,2025-10-20,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,missing,silver,2025-10-20,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,missing,silver,2025-10-20,global_required,symbol,1.0,4170,4170,0
+,summary_profile,duplicated,silver,2025-10-20,global_required,symbol,0.5,4170,2085,2085
+volumn too low (<10000),prices,outside_of_rules,silver,2025-10-21,global_required,volume,0.6562295324417401,94662,62120,32542
+close <= low,prices,outside_of_rules,silver,2025-10-21,global_required,close,0.35689083264667976,94662,33784,60878
+,prices,missing,silver,2025-10-21,global_required,low,0.960765671547189,94662,90948,3714
+,prices,missing,silver,2025-10-21,global_required,volume,0.8077581289218483,94662,76464,18198
+,prices,missing,silver,2025-10-21,global_required,high,0.9608079271513384,94662,90952,3710
+,prices,missing,silver,2025-10-21,global_required,close,0.9770340791447466,94662,92488,2174
+high < low,prices,outside_of_rules,silver,2025-10-21,global_required,high,2.1127802074750163E-5,94662,2,94660
+low > high,prices,outside_of_rules,silver,2025-10-21,global_required,low,2.1127802074750163E-5,94662,2,94660
+,prices,type_mismatch,silver,2025-10-21,global_required,close,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-21,global_required,volume,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-21,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-21,global_required,date,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-21,global_required,high,1.0,94662,94662,0
+,prices,outdated,silver,2025-10-21,global_required,date,0.0,94662,0,94662
+,prices,missing,silver,2025-10-21,global_required,symbol,1.0,94662,94662,0
+,prices,type_mismatch,silver,2025-10-21,global_required,low,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-21,global_required,symbol,0.022025733662927045,94662,2085,92577
+,summary_profile,missing,silver,2025-10-21,global_required,country,0.7318944844124701,4170,3052,1118
+,prices,missing,silver,2025-10-21,global_required,date,1.0,94662,94662,0
+,prices,duplicated,silver,2025-10-21,global_required,date,6.54961864317255E-4,94662,62,94600
+,summary_profile,missing,silver,2025-10-21,local_optional,industry,0.5880095923261391,4170,2452,1718
+,summary_profile,missing,silver,2025-10-21,local_optional,address2,0.3160671462829736,4170,1318,2852
+,summary_profile,missing,silver,2025-10-21,local_required,sector,0.5851318944844125,4170,2440,1730
+,summary_profile,missing,silver,2025-10-21,local_required,BusinessSummary,0.5011990407673861,4170,2090,2080
+,summary_profile,missing,silver,2025-10-21,local_optional,address1,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-21,global_required,zip,0.48345323741007196,4170,2016,2154
+,summary_profile,outdated,silver,2025-10-21,global_required,loaded_at,0.0,4170,0,4170
+,summary_profile,missing,silver,2025-10-21,global_required,loaded_at,1.0,4170,4170,0
+,summary_profile,missing,silver,2025-10-21,global_required,city,0.5256594724220623,4170,2192,1978
+,summary_profile,missing,silver,2025-10-21,global_required,state,0.4594724220623501,4170,1916,2254
+,summary_profile,duplicated,silver,2025-10-21,global_required,symbol,0.5,4170,2085,2085
+,summary_profile,missing,silver,2025-10-21,global_required,symbol,1.0,4170,4170,0

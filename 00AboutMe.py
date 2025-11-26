@@ -2,21 +2,22 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import json
+from lib.utils import load_toml, open_contents
 
-st.set_page_config(
-    page_title="Henrique Pedro Etges",
-    page_icon="⚽"
-)   
+st.set_page_config(page_title="My Portfolio",page_icon="📊",initial_sidebar_state='auto')
 
 if "language_selected" not in st.session_state:
     st.session_state.language_selected = 'en-US'
     
-language_selection = st.pills(label='', options=['en-US', 'pt-BR'], default=st.session_state.language_selected)
+language_selection = st.pills( 
+    label="LanguagePicker", 
+    options=['en-US', 'pt-BR'], 
+    default=st.session_state.language_selected, 
+    label_visibility="collapsed")
 st.session_state.language_selected = language_selection
+
     
-with open("content/home.json", "r",encoding='UTF-8') as f:
-    data = json.load(f)
+data = open_contents("content/home.json")
 content = data['languages'][st.session_state.language_selected]
 
 with st.container():
