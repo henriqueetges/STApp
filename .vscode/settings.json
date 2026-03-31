@@ -1,3 +1,5 @@
 {
-  "python.pythonPath": "C:\\Users\\henri\\anaconda3\\envs\\carteira\\python.exe"
+  "python.pythonPath": "C:\\Users\\henri\\anaconda3\\envs\\carteira\\python.exe",
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda"
 }
