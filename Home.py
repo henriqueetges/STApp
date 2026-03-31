@@ -43,16 +43,14 @@ skills = {'SQL': 90, 'Python': 70, 'Pyspark': 60, 'PowerBI': 90}
 df = pd.DataFrame(list(skills.items()), columns=['Skill', 'Score']).sort_values(by='Score', ascending=False)
 
 fig, ax= plt.subplots()
-ax.set_xlabel('', color='white')
-ax.set_ylabel('', color='white')
+ax.set_xlabel('', color='white', visible=False)
+ax.set_ylabel('', color='white', visible=False)
 ax.set_facecolor((17/255, 17/255, 23/255))
 fig.set_facecolor((17/255, 17/255, 23/255))
 fig.set_figheight(2)
 fig.set_figwidth(2)
-ax.tick_params(colors='white')
+ax.tick_params(colors='white', which='both', left=False, bottom=False)
+
+
 sns.barplot(df, y='Skill', x='Score', ax=ax, orient='h', hue='Skill', palette='rocket')
-for p in ax.patches:
-    width = p.get_width()
-    ax.text(width, p.get_y() + p.get_height()/2, f'{int(width)}', 
-            ha='left', va='center', color='white', fontweight='bold', fontsize=10)
 st.pyplot(fig )

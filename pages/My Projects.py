@@ -13,7 +13,7 @@ language_selection = st.pills(label="Language", options=["en-US", "pt-BR"], defa
 st.session_state.language_selected = language_selection
 
 content_dir = Path(__file__).parent.parent / "content"
-json_files = sorted(content_dir.glob("*.json"))
+json_files = [f for f in sorted(content_dir.glob("*.json")) if f.name != "home.json"]
 
 if not json_files:
     st.error("No content JSON files found in the content folder.")
